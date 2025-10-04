@@ -12,13 +12,6 @@
 - [**LM Studio**](https://lmstudio.ai/) — GUI app for local LLMs, automatically supports CPU execution.  
 - [**Text Generation WebUI**](https://github.com/oobabooga/text-generation-webui) — Powerful web interface for LLMs, CPU mode available.
 
---
-
-### 🎤 Speech & Audio (Compact)
-- **[Whisper Tiny/Base](https://huggingface.co/openai/whisper-tiny)** — 39M/74M params, transcription
-- **[Piper TTS (small voices)](https://github.com/rhasspy/piper)** — 5-20MB voice models
-- **[Vosk Small Models](https://alphacephei.com/vosk/models)** — 50MB speech recognition
-
 ---
 
 ## 🖼️ Image Generation and Editing
@@ -35,7 +28,8 @@
 - [**Whisper.cpp**](https://github.com/ggerganov/whisper.cpp) — Optimized Whisper (OpenAI) for CPU speech recognition.  
 - [**Bark (Suno)**](https://github.com/suno-ai/bark) — Realistic voice generation from text (CPU mode available).  
 - [**RVC (Retrieval-based Voice Conversion)**](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) — Real-time voice conversion, CPU compatible.  
-- [**Coqui TTS**](https://github.com/coqui-ai/TTS) — Open source text-to-speech engine, efficient on CPU.  
+- [**Coqui TTS**](https://github.com/coqui-ai/TTS) — Open source text-to-speech engine, efficient on CPU.
+- **[Piper TTS (small voices)](https://github.com/rhasspy/piper)** — 5-20MB voice models
 
 ---
 
