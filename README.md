@@ -10,7 +10,14 @@
 - [**GPT4All**](https://github.com/nomic-ai/gpt4all) — Simple interface to run LLMs locally (several CPU-optimized models included).  
 - [**Ollama**](https://github.com/ollama/ollama) — Run LLaMA, Mistral, Gemma models with excellent CPU support.  
 - [**LM Studio**](https://lmstudio.ai/) — GUI app for local LLMs, automatically supports CPU execution.  
-- [**Text Generation WebUI**](https://github.com/oobabooga/text-generation-webui) — Powerful web interface for LLMs, CPU mode available.  
+- [**Text Generation WebUI**](https://github.com/oobabooga/text-generation-webui) — Powerful web interface for LLMs, CPU mode available.
+
+--
+
+### 🎤 Speech & Audio (Compact)
+- **[Whisper Tiny/Base](https://huggingface.co/openai/whisper-tiny)** — 39M/74M params, transcription
+- **[Piper TTS (small voices)](https://github.com/rhasspy/piper)** — 5-20MB voice models
+- **[Vosk Small Models](https://alphacephei.com/vosk/models)** — 50MB speech recognition
 
 ---
 
