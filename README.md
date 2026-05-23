@@ -106,6 +106,7 @@
 - [**Gemma 2B/3B**](https://huggingface.co/google/gemma-2b-it) — Google's compact models, very fast on CPU.
 - [**TinyLlama (1.1B)**](https://github.com/jzhang38/TinyLlama) — Smallest LLaMA-based model, runs on 4GB RAM.
 - [**Mistral 7B**](https://huggingface.co/mistralai/Mistral-7B-v0.1) — Best quality/size ratio, quantized versions run smoothly.
+- [**LFM (Liquid Foundation Models)**](https://github.com/Liquid4All/cookbook) ⭐2k — Liquid AI's open-weight models with hybrid architecture (convolution + attention). Efficient on CPU, laptops, and edge devices. [Try on HF](https://huggingface.co/LiquidAI).
 - [**Qwen 2.5 / 3 (3B/7B)**](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) — Alibaba's efficient multilingual models. Qwen3 brings improved reasoning.
 - [**DeepSeek 2.5 Lite**](https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite) — Efficient Mixture-of-Experts model, strong with quantized GGUF.
 - [**StableLM 3B**](https://huggingface.co/stabilityai/stablelm-3b-4e1t) — Stability AI's compact yet capable model.
