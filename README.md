@@ -52,6 +52,7 @@
 - [**OpenVINO**](https://github.com/openvinotoolkit/openvino) — Intel's optimization toolkit for high-performance CPU inference across vision, language, and audio models.
 - [**LLM-D**](https://github.com/llm-d/llm-d) — Achieves state-of-the-art inference performance with innovative architecture design.
 - [**CTranslate2**](https://github.com/OpenNMT/CTranslate2) — Fast inference engine for Transformer models. Powers Faster Whisper, optimized for CPU with Intel MKL and ONNX.
+- [**Trillim**](https://github.com/Trillim/Trillim) ⭐15 — Local AI stack for CPUs: CLI, Python SDK, and FastAPI server for BitNet and Bonsai (1-bit/ternary) bundles. Includes speech-to-text, text-to-speech, and image generation support.
 
 -----
 
