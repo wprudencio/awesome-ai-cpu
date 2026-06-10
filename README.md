@@ -74,6 +74,7 @@
 - [**Whisper.cpp**](https://github.com/ggerganov/whisper.cpp) ⭐50k — Highly optimized Whisper (OpenAI) for CPU speech recognition. The fastest Whisper implementation for CPU.
 - [**Faster Whisper**](https://github.com/SYSTRAN/faster-whisper) — Up to 4x faster than original Whisper using CTranslate2. Excellent CPU performance.
 - [**Piper TTS**](https://github.com/rhasspy/piper) ⭐11k — Fast, local text-to-speech with small voice models (5-20MB). _Note: archived but still functional._
+- [**Sherpa-ONNX**](https://github.com/k2-fsa/sherpa-onnx) ⭐12.9k — Comprehensive speech processing toolkit powered by ONNX Runtime. Speech-to-text, TTS, speaker diarization, VAD, keyword spotting — all on CPU. Cross-platform (x86, ARM, RISC-V, Android, iOS, Raspberry Pi).
 - [**Supertonic**](https://github.com/supertone-inc/supertonic) ⭐9.7k — Lightning-fast, on-device, multilingual TTS running natively via ONNX. Python, JS, Rust, Swift bindings.
 - [**Coqui TTS**](https://github.com/coqui-ai/TTS) ⭐45k — Open source text-to-speech engine with many voices and languages. CPU efficient.
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
