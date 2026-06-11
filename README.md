@@ -44,6 +44,7 @@
 ## ⚡ Inference Engines & Runtimes
 
 - [**llama.cpp**](https://github.com/ggml-org/llama.cpp) ⭐112k — The gold standard for CPU-optimized LLM inference in C/C++. Powers Ollama, LM Studio, and most local LLM tools.
+- [**llamafile**](https://github.com/mozilla-ai/llamafile) ⭐24.9k — Mozilla's single-file LLM executable. Distribute and run LLMs as a standalone binary — no installation, no dependencies, no GPU required. Built on llama.cpp, supports CPU inference out of the box.
 - [**BitNet**](https://github.com/microsoft/BitNet) ⭐39k — Microsoft's official inference framework for 1-bit LLMs. Extremely efficient on CPU.
 - [**eLLM**](https://github.com/lucienhuangfu/eLLM) ⭐416 — Rust-based inference engine that claims to run LLMs faster on CPU than on GPU through aggressive optimization.
 - [**Krasis**](https://github.com/brontoguana/krasis) ⭐455 — Hybrid LLM runtime focusing on efficient execution of larger models on consumer hardware (CPU + limited VRAM).
