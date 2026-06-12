@@ -5,7 +5,7 @@
 > A curated list of **open source AI projects** that run well on **CPU**, no GPU required.  
 > Perfect for makers, indie developers, and local AI experiments.
 
-**Last updated:** May 2026 — featuring projects from 2025–2026
+**Last updated:** June 2026 — featuring projects from 2025–2026
 
 -----
 
@@ -213,6 +213,7 @@
 ## 🛠️ Development Tools
 
 - [**Transformers (Hugging Face)**](https://github.com/huggingface/transformers) — Load and run any model with CPU backend (`device="cpu"`).
+- [**Transformers.js**](https://github.com/huggingface/transformers.js) ⭐16.1k — HuggingFace's Transformers for the browser. Run NLP, vision, and audio models directly in JavaScript — no server, no GPU. Powered by ONNX Runtime WebAssembly.
 - [**ONNX Runtime**](https://github.com/microsoft/onnxruntime) — Accelerate ML inference on CPU with optimizations (XNNPACK, OpenVINO, CoreML).
 - [**OpenVINO**](https://github.com/openvinotoolkit/openvino) — Intel's optimization toolkit for CPU inference across any model.
 - [**BitNet**](https://github.com/microsoft/BitNet) ⭐39k — Official framework for 1-bit LLM inference. Revolutionary efficiency.
@@ -303,4 +304,4 @@ If you find this list helpful, please consider giving it a star on GitHub!
 
 -----
 
-**Made with ❤️ by the community** | **Last updated:** May 2026
+**Made with ❤️ by the community** | **Last updated:** June 2026
