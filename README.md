@@ -87,6 +87,7 @@
 - [**Demucs**](https://github.com/facebookresearch/demucs) — Separate music into vocals/instruments (CPU mode available).
 - [**MusicGen**](https://github.com/facebookresearch/audiocraft) — Generate music from text descriptions (CPU mode supported).
 - [**MusicGPT**](https://github.com/gabotechs/MusicGPT) — Generate music based on natural language prompts. Runs locally on CPU.
+- [**acestep.cpp**](https://github.com/ServeurpersoCom/acestep.cpp) ⭐339 — Local AI music generation server with browser UI, powered by GGML. Describe a song + optional lyrics and get stereo 48kHz audio. Runs on CPU via BLAS-accelerated GGML backend with a dedicated CPU build script.
 - [**FunMusic**](https://github.com/FunAudioLLM/FunMusic) — Fundamental toolkit for music generation, part of the FunAudioLLM ecosystem.
 
 -----
