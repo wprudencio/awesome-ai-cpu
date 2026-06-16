@@ -178,6 +178,7 @@
 - [**Docling**](https://github.com/docling-project/docling) ⭐61.6k — IBM's document understanding library. Parses PDF, DOCX, PPTX, images and more into structured Markdown/JSON with layout preservation. Runs fully on CPU via ONNX Runtime with dedicated CPU-only installation.
 - [**VelociRAG**](https://github.com/HaseebKhalid1507/VelociRAG) — Lightning-fast RAG for AI agents. ONNX-powered, 4-layer fusion, MCP server. No PyTorch needed.
 - [**RAG-Anything**](https://github.com/hkuds/rag-anything) — All-in-one RAG framework with multiple retrieval strategies.
+- [**LightRAG**](https://github.com/HKUDS/LightRAG) ⭐36.6k — Graph-based retrieval-augmented generation system. Indexes text into entity-relation graphs for efficient retrieval. Uses lightweight local embedding models and works with any local LLM backend (Ollama, llama.cpp). [EMNLP 2025].
 - [**LlamaIndex**](https://github.com/run-llama/llama_index) — Data framework for connecting LLMs to external data sources (APIs, databases, documents).
 
 -----
