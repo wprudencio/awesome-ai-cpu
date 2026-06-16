@@ -144,6 +144,7 @@
 ## 🤖 AI Assistants & Agents
 
 - [**Cline**](https://github.com/cline/cline) ⭐62k — Autonomous coding agent as an SDK, IDE extension, or CLI assistant. Works with local LLMs via Ollama/LM Studio.
+- [**smolagents**](https://github.com/huggingface/smolagents) ⭐27.9k — HuggingFace's barebones library for agents that think in code. Supports local transformers and Ollama models, runs entirely on CPU.
 - [**Open Interpreter**](https://github.com/KillianLucas/open-interpreter) — Code-executing AI assistant (works with local LLMs).
 - [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) — Autonomous AI agent (supports local models).
 - [**CrewAI**](https://github.com/crewAIInc/crewAI) ⭐52k — Multi-agent orchestration framework. Deploy autonomous agents that collaborate on complex tasks.
