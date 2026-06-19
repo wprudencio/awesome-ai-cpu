@@ -225,6 +225,7 @@
 - [**CTranslate2**](https://github.com/OpenNMT/CTranslate2) — Fast transformer inference on CPU. Powers Faster Whisper and many production systems.
 - [**MLX**](https://github.com/ml-explore/mlx) — Apple's ML framework optimized for Apple Silicon (M-series CPUs). Excellent for local inference.
 - [**Candle**](https://github.com/huggingface/candle) ⭐20k — HuggingFace's minimalist ML framework for Rust with CPU-first design. Run LLMs, vision models, and more locally with zero GPU dependency.
+- [**llmfit**](https://github.com/AlexsJones/llmfit) ⭐28.3k — Rust CLI tool that detects your hardware and finds the best LLMs for your RAM, CPU, and GPU. One command to right-size models — scores quality, speed, fit, and context for hundreds of models. Supports Ollama, llama.cpp, MLX, LM Studio backends.
 
 -----
 
