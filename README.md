@@ -201,6 +201,7 @@
 - [**Qdrant**](https://github.com/qdrant/qdrant) — High-performance vector database with rich filtering. CPU-friendly for moderate scale.
 - [**FAISS**](https://github.com/facebookresearch/faiss) — Meta's library for efficient similarity search and dense vector clustering. CPU-optimized.
 - [**Voyager**](https://github.com/spotify/voyager) — Spotify's approximate nearest neighbor search library. Lightweight and fast on CPU.
+- [**zvec**](https://github.com/alibaba/zvec) ⭐11.8k — Alibaba's lightweight, in-process vector database. Blazing-fast similarity search with dense + sparse vectors, full-text search, and hybrid retrieval. Embedded library — no servers, no config, runs on CPU anywhere your code runs. Python, Node.js, Go, Rust SDKs.
 
 -----
 
