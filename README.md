@@ -77,6 +77,7 @@
 - [**Piper TTS**](https://github.com/rhasspy/piper) ⭐11k — Fast, local text-to-speech with small voice models (5-20MB). _Note: archived but still functional._
 - [**Sherpa-ONNX**](https://github.com/k2-fsa/sherpa-onnx) ⭐12.9k — Comprehensive speech processing toolkit powered by ONNX Runtime. Speech-to-text, TTS, speaker diarization, VAD, keyword spotting — all on CPU. Cross-platform (x86, ARM, RISC-V, Android, iOS, Raspberry Pi).
 - [**Supertonic**](https://github.com/supertone-inc/supertonic) ⭐9.7k — Lightning-fast, on-device, multilingual TTS running natively via ONNX. Python, JS, Rust, Swift bindings.
+- [**MOSS-TTS-Nano**](https://github.com/OpenMOSS/MOSS-TTS-Nano) ⭐3.5k — Ultra-compact (0.1B params) multilingual TTS from OpenMOSS. Runs realtime on a 4-core CPU, supports Chinese + English + more, with ONNX CPU inference and voice cloning. Apache-2.0.
 - [**Coqui TTS**](https://github.com/coqui-ai/TTS) ⭐45k — Open source text-to-speech engine with many voices and languages. CPU efficient.
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
 - [**Amphion**](https://github.com/open-mmlab/Amphion) ⭐9.8k — Open-MMLab's toolkit for Audio, Music, and Speech Generation. Reproducible research with CPU mode.
