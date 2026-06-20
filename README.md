@@ -31,11 +31,11 @@
 ## 🧠 Language Models (Chatbots / Text)
 
 - [**Ollama**](https://github.com/ollama/ollama) — "Docker for local LLMs." Run Llama, Mistral, Gemma, DeepSeek with one command. Excellent CPU support, easy CLI, model library.
-- [**GPT4All**](https://github.com/nomic-ai/gpt4all) ⭐77k — Simple interface to run LLMs locally with several CPU-optimized models included.
+- [**GPT4All**](https://github.com/nomic-ai/gpt4all)— Simple interface to run LLMs locally with several CPU-optimized models included.
 - [**LM Studio**](https://lmstudio.ai/) — Beautiful GUI app for local LLMs, automatically supports CPU execution.
 - [**Text Generation WebUI**](https://github.com/oobabooga/text-generation-webui) — Powerful web interface for LLMs with extensive CPU mode options.
 - [**Jan.ai**](https://github.com/janhq/jan) — ChatGPT-like interface that runs 100% offline with a clean, modern UI.
-- [**LocalAI**](https://github.com/mudler/LocalAI) ⭐46k — OpenAI-compatible API for running local models. Drop-in replacement that also supports vision, voice, image gen — no GPU required.
+- [**LocalAI**](https://github.com/mudler/LocalAI)— OpenAI-compatible API for running local models. Drop-in replacement that also supports vision, voice, image gen — no GPU required.
 - [**Kobold.cpp**](https://github.com/LostRuins/koboldcpp) — Lightweight inference engine for GGUF models with built-in web UI.
 - [**Open WebUI**](https://github.com/open-webui/open-webui) — Self-hosted, offline ChatGPT-style interface for Ollama, with RAG, web search, and multi-user support.
 
@@ -43,17 +43,17 @@
 
 ## ⚡ Inference Engines & Runtimes
 
-- [**llama.cpp**](https://github.com/ggml-org/llama.cpp) ⭐112k — The gold standard for CPU-optimized LLM inference in C/C++. Powers Ollama, LM Studio, and most local LLM tools.
-- [**llamafile**](https://github.com/mozilla-ai/llamafile) ⭐24.9k — Mozilla's single-file LLM executable. Distribute and run LLMs as a standalone binary — no installation, no dependencies, no GPU required. Built on llama.cpp, supports CPU inference out of the box.
-- [**BitNet**](https://github.com/microsoft/BitNet) ⭐39k — Microsoft's official inference framework for 1-bit LLMs. Extremely efficient on CPU.
-- [**eLLM**](https://github.com/lucienhuangfu/eLLM) ⭐416 — Rust-based inference engine that claims to run LLMs faster on CPU than on GPU through aggressive optimization.
-- [**Krasis**](https://github.com/brontoguana/krasis) ⭐455 — Hybrid LLM runtime focusing on efficient execution of larger models on consumer hardware (CPU + limited VRAM).
-- [**IPEX-LLM**](https://github.com/intel/ipex-llm) ⭐8.8k — Accelerate local LLM inference on Intel CPUs, iGPUs, and NPUs. Seamless integration with llama.cpp, Ollama, HF Transformers.
+- [**llama.cpp**](https://github.com/ggml-org/llama.cpp)— The gold standard for CPU-optimized LLM inference in C/C++. Powers Ollama, LM Studio, and most local LLM tools.
+- [**llamafile**](https://github.com/mozilla-ai/llamafile)— Mozilla's single-file LLM executable. Distribute and run LLMs as a standalone binary — no installation, no dependencies, no GPU required. Built on llama.cpp, supports CPU inference out of the box.
+- [**BitNet**](https://github.com/microsoft/BitNet)— Microsoft's official inference framework for 1-bit LLMs. Extremely efficient on CPU.
+- [**eLLM**](https://github.com/lucienhuangfu/eLLM)— Rust-based inference engine that claims to run LLMs faster on CPU than on GPU through aggressive optimization.
+- [**Krasis**](https://github.com/brontoguana/krasis)— Hybrid LLM runtime focusing on efficient execution of larger models on consumer hardware (CPU + limited VRAM).
+- [**IPEX-LLM**](https://github.com/intel/ipex-llm)— Accelerate local LLM inference on Intel CPUs, iGPUs, and NPUs. Seamless integration with llama.cpp, Ollama, HF Transformers.
 - [**ONNX Runtime**](https://github.com/microsoft/onnxruntime) — Cross-platform ML inference acceleration with CPU-optimized execution providers (OpenVINO, XNNPACK, CoreML).
 - [**OpenVINO**](https://github.com/openvinotoolkit/openvino) — Intel's optimization toolkit for high-performance CPU inference across vision, language, and audio models.
 - [**LLM-D**](https://github.com/llm-d/llm-d) — Achieves state-of-the-art inference performance with innovative architecture design.
 - [**CTranslate2**](https://github.com/OpenNMT/CTranslate2) — Fast inference engine for Transformer models. Powers Faster Whisper, optimized for CPU with Intel MKL and ONNX.
-- [**Trillim**](https://github.com/Trillim/Trillim) ⭐15 — Local AI stack for CPUs: CLI, Python SDK, and FastAPI server for BitNet and Bonsai (1-bit/ternary) bundles. Includes speech-to-text, text-to-speech, and image generation support.
+- [**Trillim**](https://github.com/Trillim/Trillim)— Local AI stack for CPUs: CLI, Python SDK, and FastAPI server for BitNet and Bonsai (1-bit/ternary) bundles. Includes speech-to-text, text-to-speech, and image generation support.
 
 -----
 
@@ -66,29 +66,29 @@
 - [**Fooocus**](https://github.com/lllyasviel/Fooocus) — Simplified Stable Diffusion, easier to use than ComfyUI.
 - [**Real-ESRGAN**](https://github.com/xinntao/Real-ESRGAN) — AI image upscaler, fast on CPU with great results.
 - [**GFPGAN**](https://github.com/TencentARC/GFPGAN) — Restores and improves old/blurry faces in photos, runs efficiently on CPU.
-- [**Upscayl**](https://github.com/upscayl/upscayl) ⭐40k+ — Cross-platform AI image upscaler with simple GUI. Works great on CPU.
+- [**Upscayl**](https://github.com/upscayl/upscayl) — Cross-platform AI image upscaler with simple GUI. Works great on CPU.
 
 -----
 
 ## 🎤 Voice and Audio
 
-- [**Whisper.cpp**](https://github.com/ggerganov/whisper.cpp) ⭐50k — Highly optimized Whisper (OpenAI) for CPU speech recognition. The fastest Whisper implementation for CPU.
+- [**Whisper.cpp**](https://github.com/ggerganov/whisper.cpp)— Highly optimized Whisper (OpenAI) for CPU speech recognition. The fastest Whisper implementation for CPU.
 - [**Faster Whisper**](https://github.com/SYSTRAN/faster-whisper) — Up to 4x faster than original Whisper using CTranslate2. Excellent CPU performance.
-- [**Piper TTS**](https://github.com/rhasspy/piper) ⭐11k — Fast, local text-to-speech with small voice models (5-20MB). _Note: archived but still functional._
-- [**Sherpa-ONNX**](https://github.com/k2-fsa/sherpa-onnx) ⭐12.9k — Comprehensive speech processing toolkit powered by ONNX Runtime. Speech-to-text, TTS, speaker diarization, VAD, keyword spotting — all on CPU. Cross-platform (x86, ARM, RISC-V, Android, iOS, Raspberry Pi).
-- [**Supertonic**](https://github.com/supertone-inc/supertonic) ⭐9.7k — Lightning-fast, on-device, multilingual TTS running natively via ONNX. Python, JS, Rust, Swift bindings.
-- [**MOSS-TTS-Nano**](https://github.com/OpenMOSS/MOSS-TTS-Nano) ⭐3.5k — Ultra-compact (0.1B params) multilingual TTS from OpenMOSS. Runs realtime on a 4-core CPU, supports Chinese + English + more, with ONNX CPU inference and voice cloning. Apache-2.0.
-- [**Coqui TTS**](https://github.com/coqui-ai/TTS) ⭐45k — Open source text-to-speech engine with many voices and languages. CPU efficient.
+- [**Piper TTS**](https://github.com/rhasspy/piper)— Fast, local text-to-speech with small voice models (5-20MB). _Note: archived but still functional._
+- [**Sherpa-ONNX**](https://github.com/k2-fsa/sherpa-onnx)— Comprehensive speech processing toolkit powered by ONNX Runtime. Speech-to-text, TTS, speaker diarization, VAD, keyword spotting — all on CPU. Cross-platform (x86, ARM, RISC-V, Android, iOS, Raspberry Pi).
+- [**Supertonic**](https://github.com/supertone-inc/supertonic)— Lightning-fast, on-device, multilingual TTS running natively via ONNX. Python, JS, Rust, Swift bindings.
+- [**MOSS-TTS-Nano**](https://github.com/OpenMOSS/MOSS-TTS-Nano)— Ultra-compact (0.1B params) multilingual TTS from OpenMOSS. Runs realtime on a 4-core CPU, supports Chinese + English + more, with ONNX CPU inference and voice cloning. Apache-2.0.
+- [**Coqui TTS**](https://github.com/coqui-ai/TTS)— Open source text-to-speech engine with many voices and languages. CPU efficient.
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
-- [**Amphion**](https://github.com/open-mmlab/Amphion) ⭐9.8k — Open-MMLab's toolkit for Audio, Music, and Speech Generation. Reproducible research with CPU mode.
+- [**Amphion**](https://github.com/open-mmlab/Amphion)— Open-MMLab's toolkit for Audio, Music, and Speech Generation. Reproducible research with CPU mode.
 - [**Vosk**](https://github.com/alphacep/vosk-api) — Offline speech recognition, very lightweight (50MB models).
-- [**Bark (Suno)**](https://github.com/suno-ai/bark) ⭐39k — Realistic voice generation from text with CPU mode available.
-- [**Qwen3-TTS**](https://github.com/gabriele-mastrapasqua/qwen3-tts) ⭐51 — Pure C inference engine for Qwen3-TTS. No Python, no PyTorch — just C and BLAS. Supports 0.6B/1.7B models.
+- [**Bark (Suno)**](https://github.com/suno-ai/bark)— Realistic voice generation from text with CPU mode available.
+- [**Qwen3-TTS**](https://github.com/gabriele-mastrapasqua/qwen3-tts)— Pure C inference engine for Qwen3-TTS. No Python, no PyTorch — just C and BLAS. Supports 0.6B/1.7B models.
 - [**RVC (Voice Conversion)**](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) — Real-time voice conversion, CPU compatible.
 - [**Demucs**](https://github.com/facebookresearch/demucs) — Separate music into vocals/instruments (CPU mode available).
 - [**MusicGen**](https://github.com/facebookresearch/audiocraft) — Generate music from text descriptions (CPU mode supported).
 - [**MusicGPT**](https://github.com/gabotechs/MusicGPT) — Generate music based on natural language prompts. Runs locally on CPU.
-- [**acestep.cpp**](https://github.com/ServeurpersoCom/acestep.cpp) ⭐339 — Local AI music generation server with browser UI, powered by GGML. Describe a song + optional lyrics and get stereo 48kHz audio. Runs on CPU via BLAS-accelerated GGML backend with a dedicated CPU build script.
+- [**acestep.cpp**](https://github.com/ServeurpersoCom/acestep.cpp)— Local AI music generation server with browser UI, powered by GGML. Describe a song + optional lyrics and get stereo 48kHz audio. Runs on CPU via BLAS-accelerated GGML backend with a dedicated CPU build script.
 - [**FunMusic**](https://github.com/FunAudioLLM/FunMusic) — Fundamental toolkit for music generation, part of the FunAudioLLM ecosystem.
 
 -----
@@ -96,9 +96,9 @@
 ## 👁️ Computer Vision
 
 - [**OpenCV + DNN**](https://github.com/opencv/opencv) — Industry-standard vision framework with neural networks, fully CPU capable.
-- [**Ultralytics YOLO**](https://github.com/ultralytics/ultralytics) ⭐57k — YOLOv8, v9, v10+ with `--device cpu`. Real-time object detection on CPU.
+- [**Ultralytics YOLO**](https://github.com/ultralytics/ultralytics)— YOLOv8, v9, v10+ with `--device cpu`. Real-time object detection on CPU.
 - [**MediaPipe**](https://github.com/google/mediapipe) — Google's library for hand, face, pose, and body tracking on CPU.
-- [**FaceX**](https://github.com/facex-engine/facex) ⭐195 — Full face stack running entirely in the browser via WebAssembly. Detection, 576-point 3D mesh, recognition, anti-spoof. Zero server needed.
+- [**FaceX**](https://github.com/facex-engine/facex)— Full face stack running entirely in the browser via WebAssembly. Detection, 576-point 3D mesh, recognition, anti-spoof. Zero server needed.
 - [**ONNX Models**](https://github.com/onnx/models) — Collection of pre-trained, state-of-the-art ONNX models for vision, text, and audio.
 
 -----
@@ -111,7 +111,7 @@
 - [**Gemma 2B/3B**](https://huggingface.co/google/gemma-2b-it) — Google's compact models, very fast on CPU.
 - [**TinyLlama (1.1B)**](https://github.com/jzhang38/TinyLlama) — Smallest LLaMA-based model, runs on 4GB RAM.
 - [**Mistral 7B**](https://huggingface.co/mistralai/Mistral-7B-v0.1) — Best quality/size ratio, quantized versions run smoothly.
-- [**LFM (Liquid Foundation Models)**](https://github.com/Liquid4All/cookbook) ⭐2k — Liquid AI's open-weight models with hybrid architecture (convolution + attention). Efficient on CPU, laptops, and edge devices. [Try on HF](https://huggingface.co/LiquidAI).
+- [**LFM (Liquid Foundation Models)**](https://github.com/Liquid4All/cookbook)— Liquid AI's open-weight models with hybrid architecture (convolution + attention). Efficient on CPU, laptops, and edge devices. [Try on HF](https://huggingface.co/LiquidAI).
 - [**Qwen 2.5 / 3 (3B/7B)**](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) — Alibaba's efficient multilingual models. Qwen3 brings improved reasoning.
 - [**DeepSeek 2.5 Lite**](https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite) — Efficient Mixture-of-Experts model, strong with quantized GGUF.
 - [**StableLM 3B**](https://huggingface.co/stabilityai/stablelm-3b-4e1t) — Stability AI's compact yet capable model.
@@ -144,24 +144,24 @@
 
 ## 🤖 AI Assistants & Agents
 
-- [**Cline**](https://github.com/cline/cline) ⭐62k — Autonomous coding agent as an SDK, IDE extension, or CLI assistant. Works with local LLMs via Ollama/LM Studio.
-- [**smolagents**](https://github.com/huggingface/smolagents) ⭐27.9k — HuggingFace's barebones library for agents that think in code. Supports local transformers and Ollama models, runs entirely on CPU.
+- [**Cline**](https://github.com/cline/cline)— Autonomous coding agent as an SDK, IDE extension, or CLI assistant. Works with local LLMs via Ollama/LM Studio.
+- [**smolagents**](https://github.com/huggingface/smolagents)— HuggingFace's barebones library for agents that think in code. Supports local transformers and Ollama models, runs entirely on CPU.
 - [**Open Interpreter**](https://github.com/KillianLucas/open-interpreter) — Code-executing AI assistant (works with local LLMs).
 - [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) — Autonomous AI agent (supports local models).
-- [**CrewAI**](https://github.com/crewAIInc/crewAI) ⭐52k — Multi-agent orchestration framework. Deploy autonomous agents that collaborate on complex tasks.
+- [**CrewAI**](https://github.com/crewAIInc/crewAI)— Multi-agent orchestration framework. Deploy autonomous agents that collaborate on complex tasks.
 - [**LangGraph**](https://github.com/langchain-ai/langgraph) — Stateful, graph-based agent orchestration framework from LangChain.
-- [**Dify**](https://github.com/langgenius/dify) ⭐142k — Production-ready platform for agentic workflow development. Visual builder + built-in RAG.
-- [**Flowise**](https://github.com/FlowiseAI/Flowise) ⭐53k — Drag-and-drop visual tool to build LLM apps and AI agents. Self-host with Ollama.
-- [**RAGFlow**](https://github.com/infiniflow/ragflow) ⭐81k — Leading open-source RAG engine with agent capabilities. Deep document understanding.
+- [**Dify**](https://github.com/langgenius/dify)— Production-ready platform for agentic workflow development. Visual builder + built-in RAG.
+- [**Flowise**](https://github.com/FlowiseAI/Flowise)— Drag-and-drop visual tool to build LLM apps and AI agents. Self-host with Ollama.
+- [**RAGFlow**](https://github.com/infiniflow/ragflow)— Leading open-source RAG engine with agent capabilities. Deep document understanding.
 - [**AnythingLLM**](https://github.com/Mintplex-Labs/anything-llm) — Chat with your documents (PDFs, text), supports local models.
 - [**PrivateGPT**](https://github.com/imartinez/privateGPT) — Ask questions to your documents 100% offline.
-- [**CrewAI**](https://github.com/crewAIInc/crewAI) ⭐52k — Multi-agent orchestration for role-playing AI teams.
+- [**CrewAI**](https://github.com/crewAIInc/crewAI)— Multi-agent orchestration for role-playing AI teams.
 
 -----
 
 ## 💻 Coding Assistants
 
-- [**Cline**](https://github.com/cline/cline) ⭐62k — Autonomous coding agent. VS Code extension + CLI + SDK. Supports Ollama, LM Studio, and any OpenAI-compatible local backend.
+- [**Cline**](https://github.com/cline/cline)— Autonomous coding agent. VS Code extension + CLI + SDK. Supports Ollama, LM Studio, and any OpenAI-compatible local backend.
 - [**Continue.dev**](https://github.com/continuedev/continue) — Open-source VS Code / JetBrains copilot. Use local models (Qwen 2.5 Coder, DeepSeek Coder) for autocomplete and chat.
 - [**Aider**](https://github.com/paul-gauthier/aider) — Terminal-based AI pair programming with git integration. Works with local LLMs.
 - [**Tabby**](https://github.com/TabbyML/tabby) — Self-hosted GitHub Copilot alternative. Code completion on CPU with StarCoder models.
@@ -171,23 +171,23 @@
 
 ## 📚 Document & Knowledge (RAG)
 
-- [**RAGFlow**](https://github.com/infiniflow/ragflow) ⭐81k — Deep document understanding RAG engine. PDF, DOCX, Excel — with agentic retrieval.
-- [**Dify**](https://github.com/langgenius/dify) ⭐142k — Full-featured LLM app platform with built-in RAG pipeline, knowledge base, and agentic workflow.
+- [**RAGFlow**](https://github.com/infiniflow/ragflow)— Deep document understanding RAG engine. PDF, DOCX, Excel — with agentic retrieval.
+- [**Dify**](https://github.com/langgenius/dify)— Full-featured LLM app platform with built-in RAG pipeline, knowledge base, and agentic workflow.
 - [**AnythingLLM**](https://github.com/Mintplex-Labs/anything-llm) — All-in-one desktop app for document-grounded conversations and private knowledge bases.
 - [**PrivateGPT**](https://github.com/imartinez/privateGPT) — Offline Q&A over your documents (PDFs, text, code).
 - [**MinerU**](https://github.com/opendatalab/MinerU) — Transforms complex documents (PDF, HTML, scans) into clean Markdown/JSON for RAG pipelines.
-- [**Docling**](https://github.com/docling-project/docling) ⭐61.6k — IBM's document understanding library. Parses PDF, DOCX, PPTX, images and more into structured Markdown/JSON with layout preservation. Runs fully on CPU via ONNX Runtime with dedicated CPU-only installation.
+- [**Docling**](https://github.com/docling-project/docling)— IBM's document understanding library. Parses PDF, DOCX, PPTX, images and more into structured Markdown/JSON with layout preservation. Runs fully on CPU via ONNX Runtime with dedicated CPU-only installation.
 - [**VelociRAG**](https://github.com/HaseebKhalid1507/VelociRAG) — Lightning-fast RAG for AI agents. ONNX-powered, 4-layer fusion, MCP server. No PyTorch needed.
 - [**RAG-Anything**](https://github.com/hkuds/rag-anything) — All-in-one RAG framework with multiple retrieval strategies.
-- [**LightRAG**](https://github.com/HKUDS/LightRAG) ⭐36.6k — Graph-based retrieval-augmented generation system. Indexes text into entity-relation graphs for efficient retrieval. Uses lightweight local embedding models and works with any local LLM backend (Ollama, llama.cpp). [EMNLP 2025].
+- [**LightRAG**](https://github.com/HKUDS/LightRAG)— Graph-based retrieval-augmented generation system. Indexes text into entity-relation graphs for efficient retrieval. Uses lightweight local embedding models and works with any local LLM backend (Ollama, llama.cpp). [EMNLP 2025].
 - [**LlamaIndex**](https://github.com/run-llama/llama_index) — Data framework for connecting LLMs to external data sources (APIs, databases, documents).
 
 -----
 
 ## 🔄 Agentic Workflows & Platforms
 
-- [**Dify**](https://github.com/langgenius/dify) ⭐142k — Production-ready platform for building AI agents and workflows. Visual pipeline builder, RAG, MCP support, multi-model.
-- [**Flowise**](https://github.com/FlowiseAI/Flowise) ⭐53k — Low-code/no-code platform to build LLM apps, chatbots, and agents visually.
+- [**Dify**](https://github.com/langgenius/dify)— Production-ready platform for building AI agents and workflows. Visual pipeline builder, RAG, MCP support, multi-model.
+- [**Flowise**](https://github.com/FlowiseAI/Flowise)— Low-code/no-code platform to build LLM apps, chatbots, and agents visually.
 - [**n8n**](https://github.com/n8n-io/n8n) — Advanced workflow automation with native AI capabilities and MCP nodes.
 - [**Langflow**](https://github.com/langflow-ai/langflow) — Visual framework for building multi-agent and RAG applications.
 - [**Haystack**](https://github.com/deepset-ai/haystack) — End-to-end NLP framework for building search, QA, and RAG pipelines.
@@ -207,10 +207,10 @@
 
 ## 💡 Creative AI & Miscellaneous
 
-- [**Amphion**](https://github.com/open-mmlab/Amphion) ⭐9.8k — Audio, music, and speech generation toolkit. TTS, SVC, music gen — all on CPU.
+- [**Amphion**](https://github.com/open-mmlab/Amphion)— Audio, music, and speech generation toolkit. TTS, SVC, music gen — all on CPU.
 - [**MusicGen**](https://github.com/facebookresearch/audiocraft) — Generate music from text descriptions (CPU mode supported).
 - [**FunMusic**](https://github.com/FunAudioLLM/FunMusic) — Music generation toolkit from FunAudioLLM.
-- [**Diarize**](https://github.com/FoxNoseTech/diarize) ⭐71 — Speaker diarization — "who spoke when?" CPU-only, no API keys, 8x faster than real-time.
+- [**Diarize**](https://github.com/FoxNoseTech/diarize)— Speaker diarization — "who spoke when?" CPU-only, no API keys, 8x faster than real-time.
 - [**llama.cpp**](https://github.com/ggerganov/llama.cpp) — CPU-optimized inference for LLaMA and compatible models.
 - [**Roop**](https://github.com/s0md3v/roop) — One-click face swap tool (CPU compatible).
 
@@ -219,15 +219,15 @@
 ## 🛠️ Development Tools
 
 - [**Transformers (Hugging Face)**](https://github.com/huggingface/transformers) — Load and run any model with CPU backend (`device="cpu"`).
-- [**Transformers.js**](https://github.com/huggingface/transformers.js) ⭐16.1k — HuggingFace's Transformers for the browser. Run NLP, vision, and audio models directly in JavaScript — no server, no GPU. Powered by ONNX Runtime WebAssembly.
+- [**Transformers.js**](https://github.com/huggingface/transformers.js)— HuggingFace's Transformers for the browser. Run NLP, vision, and audio models directly in JavaScript — no server, no GPU. Powered by ONNX Runtime WebAssembly.
 - [**ONNX Runtime**](https://github.com/microsoft/onnxruntime) — Accelerate ML inference on CPU with optimizations (XNNPACK, OpenVINO, CoreML).
 - [**OpenVINO**](https://github.com/openvinotoolkit/openvino) — Intel's optimization toolkit for CPU inference across any model.
-- [**BitNet**](https://github.com/microsoft/BitNet) ⭐39k — Official framework for 1-bit LLM inference. Revolutionary efficiency.
+- [**BitNet**](https://github.com/microsoft/BitNet)— Official framework for 1-bit LLM inference. Revolutionary efficiency.
 - [**LMDeploy**](https://github.com/InternLM/lmdeploy) — Model compression and deployment toolkit for efficient CPU serving.
 - [**CTranslate2**](https://github.com/OpenNMT/CTranslate2) — Fast transformer inference on CPU. Powers Faster Whisper and many production systems.
 - [**MLX**](https://github.com/ml-explore/mlx) — Apple's ML framework optimized for Apple Silicon (M-series CPUs). Excellent for local inference.
-- [**Candle**](https://github.com/huggingface/candle) ⭐20k — HuggingFace's minimalist ML framework for Rust with CPU-first design. Run LLMs, vision models, and more locally with zero GPU dependency.
-- [**llmfit**](https://github.com/AlexsJones/llmfit) ⭐28.3k — Rust CLI tool that detects your hardware and finds the best LLMs for your RAM, CPU, and GPU. One command to right-size models — scores quality, speed, fit, and context for hundreds of models. Supports Ollama, llama.cpp, MLX, LM Studio backends.
+- [**Candle**](https://github.com/huggingface/candle)— HuggingFace's minimalist ML framework for Rust with CPU-first design. Run LLMs, vision models, and more locally with zero GPU dependency.
+- [**llmfit**](https://github.com/AlexsJones/llmfit)— Rust CLI tool that detects your hardware and finds the best LLMs for your RAM, CPU, and GPU. One command to right-size models — scores quality, speed, fit, and context for hundreds of models. Supports Ollama, llama.cpp, MLX, LM Studio backends.
 
 -----
 
