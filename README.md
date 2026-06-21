@@ -166,6 +166,7 @@
 - [**Aider**](https://github.com/paul-gauthier/aider) — Terminal-based AI pair programming with git integration. Works with local LLMs.
 - [**Tabby**](https://github.com/TabbyML/tabby) — Self-hosted GitHub Copilot alternative. Code completion on CPU with StarCoder models.
 - [**OpenCode**](https://github.com/sst/opencode) — The most-starred open-source AI coding agent of 2026. Designed for fast local development workflows.
+- [**Crush**](https://github.com/charmbracelet/crush) — Terminal-based agentic coding assistant from Charm. Auto-discovers local models from Ollama, LM Studio, litellm, and any OpenAI-compatible backend — run it fully offline on CPU. LSP-enhanced, MCP-extensible, cross-platform (macOS, Linux, Windows, BSD).
 
 -----
 
