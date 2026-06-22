@@ -45,6 +45,7 @@
 
 - [**llama.cpp**](https://github.com/ggml-org/llama.cpp)— The gold standard for CPU-optimized LLM inference in C/C++. Powers Ollama, LM Studio, and most local LLM tools.
 - [**llamafile**](https://github.com/mozilla-ai/llamafile)— Mozilla's single-file LLM executable. Distribute and run LLMs as a standalone binary — no installation, no dependencies, no GPU required. Built on llama.cpp, supports CPU inference out of the box.
+- [**mistral.rs**](https://github.com/EricLBuehler/mistral.rs) — Fast, flexible LLM inference engine in Rust, built on Candle. Run any Hugging Face model or GGUF file with zero config — prebuilt CPU binaries for Linux/Windows and CPU Docker images mean no GPU or CUDA toolkit needed. Smart in-situ quantization (GGUF, GPTQ, AWQ) and hardware-aware tuning optimize for your CPU.
 - [**BitNet**](https://github.com/microsoft/BitNet)— Microsoft's official inference framework for 1-bit LLMs. Extremely efficient on CPU.
 - [**eLLM**](https://github.com/lucienhuangfu/eLLM)— Rust-based inference engine that claims to run LLMs faster on CPU than on GPU through aggressive optimization.
 - [**Krasis**](https://github.com/brontoguana/krasis)— Hybrid LLM runtime focusing on efficient execution of larger models on consumer hardware (CPU + limited VRAM).
