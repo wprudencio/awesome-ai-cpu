@@ -80,6 +80,7 @@
 - [**Sherpa-ONNX**](https://github.com/k2-fsa/sherpa-onnx)— Comprehensive speech processing toolkit powered by ONNX Runtime. Speech-to-text, TTS, speaker diarization, VAD, keyword spotting — all on CPU. Cross-platform (x86, ARM, RISC-V, Android, iOS, Raspberry Pi).
 - [**Supertonic**](https://github.com/supertone-inc/supertonic)— Lightning-fast, on-device, multilingual TTS running natively via ONNX. Python, JS, Rust, Swift bindings.
 - [**MOSS-TTS-Nano**](https://github.com/OpenMOSS/MOSS-TTS-Nano)— Ultra-compact (0.1B params) multilingual TTS from OpenMOSS. Runs realtime on a 4-core CPU, supports Chinese + English + more, with ONNX CPU inference and voice cloning. Apache-2.0.
+- [**VoxCPM**](https://github.com/OpenBMB/VoxCPM)— Tokenizer-free TTS from OpenBMB that generates speech via diffusion autoregressive architecture. VoxCPM2 (2B params) supports 30 languages, voice design, controllable voice cloning, and 48kHz audio. Runs on CPU via `--device cpu`, with GGML and ONNX CPU builds available.
 - [**Coqui TTS**](https://github.com/coqui-ai/TTS)— Open source text-to-speech engine with many voices and languages. CPU efficient.
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
 - [**Amphion**](https://github.com/open-mmlab/Amphion)— Open-MMLab's toolkit for Audio, Music, and Speech Generation. Reproducible research with CPU mode.
