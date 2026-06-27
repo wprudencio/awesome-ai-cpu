@@ -33,7 +33,7 @@
 - [**Ollama**](https://github.com/ollama/ollama) — "Docker for local LLMs." Run Llama, Mistral, Gemma, DeepSeek with one command. Excellent CPU support, easy CLI, model library.
 - [**GPT4All**](https://github.com/nomic-ai/gpt4all)— Simple interface to run LLMs locally with several CPU-optimized models included.
 - [**LM Studio**](https://lmstudio.ai/) — Beautiful GUI app for local LLMs, automatically supports CPU execution.
-- [**Text Generation WebUI**](https://github.com/oobabooga/text-generation-webui) — Powerful web interface for LLMs with extensive CPU mode options.
+- [**LMCP**](https://github.com/lmcp-ai/lmcp) — Local Model Control Protocol — run any LLM with a unified API, auto-discovers Ollama, llama.cpp, vLLM backends.
 - [**Jan.ai**](https://github.com/janhq/jan) — ChatGPT-like interface that runs 100% offline with a clean, modern UI.
 - [**LocalAI**](https://github.com/mudler/LocalAI)— OpenAI-compatible API for running local models. Drop-in replacement that also supports vision, voice, image gen — no GPU required.
 - [**Kobold.cpp**](https://github.com/LostRuins/koboldcpp) — Lightweight inference engine for GGUF models with built-in web UI.
@@ -61,11 +61,10 @@
 
 ## 🖼️ Image Generation and Editing
 
-- [**Stable Diffusion (CPU mode)**](https://github.com/CompVis/stable-diffusion) — Image generation model that works on CPU (slower but functional).
-- [**Diffusion Bee**](https://diffusionbee.com/) — User-friendly GUI for Stable Diffusion on macOS, fully CPU compatible.
+- [**FastSD CPU**](https://github.com/rupeshs/fastsdcpu) ⭐2.1k — Fast Stable Diffusion on CPU and AI PC. Supports SDXL, SD 1.5, LCM, and FLUX — optimized for CPU inference.
+- [**Fooocus**](https://github.com/lllyasviel/Fooocus) — Simplified Stable Diffusion, easier to use than ComfyUI.
 - [**InvokeAI**](https://github.com/invoke-ai/InvokeAI) — Professional Stable Diffusion interface with excellent CPU support.
 - [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) — Node-based UI for image AI pipelines, supports CPU workflow.
-- [**Fooocus**](https://github.com/lllyasviel/Fooocus) — Simplified Stable Diffusion, easier to use than ComfyUI.
 - [**Real-ESRGAN**](https://github.com/xinntao/Real-ESRGAN) — AI image upscaler, fast on CPU with great results.
 - [**GFPGAN**](https://github.com/TencentARC/GFPGAN) — Restores and improves old/blurry faces in photos, runs efficiently on CPU.
 - [**Upscayl**](https://github.com/upscayl/upscayl) — Cross-platform AI image upscaler with simple GUI. Works great on CPU.
@@ -83,11 +82,11 @@
 - [**VoxCPM**](https://github.com/OpenBMB/VoxCPM)— Tokenizer-free TTS from OpenBMB that generates speech via diffusion autoregressive architecture. VoxCPM2 (2B params) supports 30 languages, voice design, controllable voice cloning, and 48kHz audio. Runs on CPU via `--device cpu`, with GGML and ONNX CPU builds available.
 - [**Pocket TTS**](https://github.com/kyutai-labs/pocket-tts) — Lightweight, CPU-first TTS from Kyutai Labs. 100M params, runs ~6x faster than real-time on a MacBook Air M4 using only 2 CPU cores. Voice cloning, multi-language (EN/FR/DE/PT/IT/ES), streaming audio with ~200ms latency, and handles infinitely long text. `pip install pocket-tts`.
 - [**Chatterbox TTS Server**](https://github.com/devnen/Chatterbox-TTS-Server) — Self-host Resemble AI's Chatterbox TTS (Original, Multilingual, Turbo) behind an OpenAI-compatible API with Web UI. Voice cloning, audiobook generation, 23 languages. Runs on CPU with automatic GPU fallback.
-- [**Coqui TTS**](https://github.com/coqui-ai/TTS)— Open source text-to-speech engine with many voices and languages. CPU efficient.
+
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
 - [**Amphion**](https://github.com/open-mmlab/Amphion)— Open-MMLab's toolkit for Audio, Music, and Speech Generation. Reproducible research with CPU mode.
 - [**Vosk**](https://github.com/alphacep/vosk-api) — Offline speech recognition, very lightweight (50MB models).
-- [**Bark (Suno)**](https://github.com/suno-ai/bark)— Realistic voice generation from text with CPU mode available.
+
 - [**Qwen3-TTS**](https://github.com/gabriele-mastrapasqua/qwen3-tts)— Pure C inference engine for Qwen3-TTS. No Python, no PyTorch — just C and BLAS. Supports 0.6B/1.7B models.
 - [**RVC (Voice Conversion)**](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) — Real-time voice conversion, CPU compatible.
 - [**Demucs**](https://github.com/facebookresearch/demucs) — Separate music into vocals/instruments (CPU mode available).
@@ -117,7 +116,7 @@
 - [**Ministral 3B**](https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512) — Mistral's small but capable model, excellent for CPU inference.
 - [**LFM 2.5 (350M–1.2B)**](https://huggingface.co/LiquidAI/LFM2.5-350M) — Liquid AI's hybrid architecture (conv + attention) models. Vision-capable variants (VL) from 450M to 1.6B. Blazing fast on CPU and edge devices.
 - [**Qwen 3.6**](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) — Alibaba's latest with 27B dense and 35B-A3B MoE variants. MoE activates only 3B params per token — great speed/quality ratio.
-- [**DeepSeek V4-Flash**](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) — DeepSeek's efficient MoE with GGUF support. Strong reasoning at low cost.
+- [**DeepSeek-R1-Distill-Qwen (1.5B–7B)**](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B) — Distilled reasoning models from DeepSeek. Tiny 1.5B variant runs great on CPU.
 - [**SmolLM3 (3B)**](https://huggingface.co/HuggingFaceTB/SmolLM3-3B) — HuggingFace's latest tiny model, multilingual (8 languages), optimized for on-device and CPU inference.
 
 ### 🖼️ Image Models
@@ -216,7 +215,7 @@
 - [**FunMusic**](https://github.com/FunAudioLLM/FunMusic) — Music generation toolkit from FunAudioLLM.
 - [**Diarize**](https://github.com/FoxNoseTech/diarize)— Speaker diarization — "who spoke when?" CPU-only, no API keys, 8x faster than real-time.
 - [**llama.cpp**](https://github.com/ggerganov/llama.cpp) — CPU-optimized inference for LLaMA and compatible models.
-- [**Roop**](https://github.com/s0md3v/roop) — One-click face swap tool (CPU compatible).
+- [**FaceFusion**](https://github.com/facefusion/facefusion) ⭐29k — Next-gen face swap, lip-sync, and enhancement. CPU and GPU, 30+ languages, actively maintained.
 
 -----
 
