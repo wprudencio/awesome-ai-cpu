@@ -112,15 +112,13 @@
 
 ### 💬 Language Models (< 7B parameters)
 
-- [**Phi-3/Phi-4 Mini (3.8B/4B)**](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct) — Microsoft's ultra-efficient models with excellent quality for their size.
-- [**Gemma 2B/3B**](https://huggingface.co/google/gemma-2b-it) — Google's compact models, very fast on CPU.
-- [**TinyLlama (1.1B)**](https://github.com/jzhang38/TinyLlama) — Smallest LLaMA-based model, runs on 4GB RAM.
-- [**Mistral 7B**](https://huggingface.co/mistralai/Mistral-7B-v0.1) — Best quality/size ratio, quantized versions run smoothly.
-- [**LFM (Liquid Foundation Models)**](https://github.com/Liquid4All/cookbook)— Liquid AI's open-weight models with hybrid architecture (convolution + attention). Efficient on CPU, laptops, and edge devices. [Try on HF](https://huggingface.co/LiquidAI).
-- [**Qwen 2.5 / 3 (3B/7B)**](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) — Alibaba's efficient multilingual models. Qwen3 brings improved reasoning.
-- [**DeepSeek 2.5 Lite**](https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite) — Efficient Mixture-of-Experts model, strong with quantized GGUF.
-- [**StableLM 3B**](https://huggingface.co/stabilityai/stablelm-3b-4e1t) — Stability AI's compact yet capable model.
-- [**SmolLM2 (135M-1.7B)**](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B) — HuggingFace's tiny models for on-device and CPU inference.
+- [**Phi-4 Mini (3.8B)**](https://huggingface.co/microsoft/Phi-4-mini-instruct) — Microsoft's ultra-efficient model with excellent quality for its size. Strong on math, code, and reasoning.
+- [**Gemma 4 (E2B/E4B)**](https://huggingface.co/google/gemma-4-E2B-it) — Google's latest compact models with multimodal support. E2B and E4B are tiny and fast on CPU.
+- [**Ministral 3B**](https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512) — Mistral's small but capable model, excellent for CPU inference.
+- [**LFM 2.5 (350M–1.2B)**](https://huggingface.co/LiquidAI/LFM2.5-350M) — Liquid AI's hybrid architecture (conv + attention) models. Vision-capable variants (VL) from 450M to 1.6B. Blazing fast on CPU and edge devices.
+- [**Qwen 3.6**](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) — Alibaba's latest with 27B dense and 35B-A3B MoE variants. MoE activates only 3B params per token — great speed/quality ratio.
+- [**DeepSeek V4-Flash**](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) — DeepSeek's efficient MoE with GGUF support. Strong reasoning at low cost.
+- [**SmolLM3 (3B)**](https://huggingface.co/HuggingFaceTB/SmolLM3-3B) — HuggingFace's latest tiny model, multilingual (8 languages), optimized for on-device and CPU inference.
 
 ### 🖼️ Image Models
 
