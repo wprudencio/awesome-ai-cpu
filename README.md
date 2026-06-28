@@ -75,6 +75,7 @@
 
 - [**Whisper.cpp**](https://github.com/ggerganov/whisper.cpp)— Highly optimized Whisper (OpenAI) for CPU speech recognition. The fastest Whisper implementation for CPU.
 - [**Faster Whisper**](https://github.com/SYSTRAN/faster-whisper) — Up to 4x faster than original Whisper using CTranslate2. Excellent CPU performance.
+- [**FunASR-GGML**](https://github.com/huaxin0/FunASR-GGML) — Pure C++17 speech recognition engine powered by FunASR's SenseVoice architecture. GGML/GGUF format, real-time mic streaming with VAD, single-file models, no Python dependency. Excellent for multilingual and Chinese ASR on CPU.
 - [**Piper TTS**](https://github.com/rhasspy/piper)— Fast, local text-to-speech with small voice models (5-20MB). _Note: archived but still functional._
 - [**Sherpa-ONNX**](https://github.com/k2-fsa/sherpa-onnx)— Comprehensive speech processing toolkit powered by ONNX Runtime. Speech-to-text, TTS, speaker diarization, VAD, keyword spotting — all on CPU. Cross-platform (x86, ARM, RISC-V, Android, iOS, Raspberry Pi).
 - [**Supertonic**](https://github.com/supertone-inc/supertonic)— Lightning-fast, on-device, multilingual TTS running natively via ONNX. Python, JS, Rust, Swift bindings.
