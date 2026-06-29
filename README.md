@@ -180,6 +180,7 @@
 - [**AnythingLLM**](https://github.com/Mintplex-Labs/anything-llm) — All-in-one desktop app for document-grounded conversations and private knowledge bases.
 - [**PrivateGPT**](https://github.com/imartinez/privateGPT) — Offline Q&A over your documents (PDFs, text, code).
 - [**MinerU**](https://github.com/opendatalab/MinerU) — Transforms complex documents (PDF, HTML, scans) into clean Markdown/JSON for RAG pipelines.
+- [**Marker**](https://github.com/datalab-to/marker) — Converts PDF, image, PPTX, DOCX, XLSX, HTML, and EPUB to Markdown and JSON quickly and accurately. Works on GPU, CPU, or MPS. Formats tables, equations, code blocks, and extracts images. Optionally boosts accuracy with LLMs (Ollama/Gemini).
 - [**Docling**](https://github.com/docling-project/docling)— IBM's document understanding library. Parses PDF, DOCX, PPTX, images and more into structured Markdown/JSON with layout preservation. Runs fully on CPU via ONNX Runtime with dedicated CPU-only installation.
 - [**VelociRAG**](https://github.com/HaseebKhalid1507/VelociRAG) — Lightning-fast RAG for AI agents. ONNX-powered, 4-layer fusion, MCP server. No PyTorch needed.
 - [**RAG-Anything**](https://github.com/hkuds/rag-anything) — All-in-one RAG framework with multiple retrieval strategies.
