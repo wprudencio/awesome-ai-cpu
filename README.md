@@ -136,6 +136,7 @@
 - [**MobileNetV3**](https://pytorch.org/vision/stable/models/mobilenetv3.html) — 5.4M params, image classification.
 - [**YOLOv8n (nano)**](https://github.com/ultralytics/ultralytics) — Smallest YOLO, 3M params for object detection.
 - [**EfficientNet-Lite**](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet) — Lightweight classification models optimized for CPU.
+- [**Namo-R1**](https://github.com/lucasjinreal/Namo-R1) — 500M parameter Vision-Language Model trained from scratch, surpassing Moondream2 and SmolVLM. Designed for CPU-first inference with real-time performance on consumer hardware.
 
 ### 🧠 Embedding Models (for RAG/Search)
 
