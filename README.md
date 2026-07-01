@@ -83,6 +83,7 @@
 - [**VoxCPM**](https://github.com/OpenBMB/VoxCPM)— Tokenizer-free TTS from OpenBMB that generates speech via diffusion autoregressive architecture. VoxCPM2 (2B params) supports 30 languages, voice design, controllable voice cloning, and 48kHz audio. Runs on CPU via `--device cpu`, with GGML and ONNX CPU builds available.
 - [**Pocket TTS**](https://github.com/kyutai-labs/pocket-tts) — Lightweight, CPU-first TTS from Kyutai Labs. 100M params, runs ~6x faster than real-time on a MacBook Air M4 using only 2 CPU cores. Voice cloning, multi-language (EN/FR/DE/PT/IT/ES), streaming audio with ~200ms latency, and handles infinitely long text. `pip install pocket-tts`.
 - [**Chatterbox TTS Server**](https://github.com/devnen/Chatterbox-TTS-Server) — Self-host Resemble AI's Chatterbox TTS (Original, Multilingual, Turbo) behind an OpenAI-compatible API with Web UI. Voice cloning, audiobook generation, 23 languages. Runs on CPU with automatic GPU fallback.
+- [**omnivoice.cpp**](https://github.com/ServeurpersoCom/omnivoice.cpp) — GGML-powered local TTS with voice cloning and voice design across 646 languages. C++17 port of OmniVoice with Q8_0 quantization, 24 kHz output, and a dedicated CPU build script. Embeddable C API for integration.
 
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
 - [**Amphion**](https://github.com/open-mmlab/Amphion)— Open-MMLab's toolkit for Audio, Music, and Speech Generation. Reproducible research with CPU mode.
