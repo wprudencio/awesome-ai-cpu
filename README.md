@@ -161,6 +161,7 @@
 - [**RAGFlow**](https://github.com/infiniflow/ragflow)— Leading open-source RAG engine with agent capabilities. Deep document understanding.
 - [**AnythingLLM**](https://github.com/Mintplex-Labs/anything-llm) — Chat with your documents (PDFs, text), supports local models.
 - [**PrivateGPT**](https://github.com/imartinez/privateGPT) — Ask questions to your documents 100% offline.
+- [**Local Deep Research**](https://github.com/LearningCircuit/local-deep-research) — AI-powered research assistant that performs deep, agentic research using local LLMs (Ollama, llama.cpp). Searches across web, academic papers, and your own documents, then synthesizes findings into cited reports. Runs fully on CPU with Docker Compose or pip install.
 - [**CrewAI**](https://github.com/crewAIInc/crewAI)— Multi-agent orchestration for role-playing AI teams.
 
 -----
