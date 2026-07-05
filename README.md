@@ -211,6 +211,7 @@
 - [**FAISS**](https://github.com/facebookresearch/faiss) — Meta's library for efficient similarity search and dense vector clustering. CPU-optimized.
 - [**Voyager**](https://github.com/spotify/voyager) — Spotify's approximate nearest neighbor search library. Lightweight and fast on CPU.
 - [**zvec**](https://github.com/alibaba/zvec) — Alibaba's lightweight, in-process vector database. Blazing-fast similarity search with dense + sparse vectors, full-text search, and hybrid retrieval. Embedded library — no servers, no config, runs on CPU anywhere your code runs. Python, Node.js, Go, Rust SDKs.
+- [**LEANN**](https://github.com/StarTrail-org/LEANN) — Innovative vector database that uses graph-based selective recomputation to cut storage by 97%. Index millions of documents and run RAG entirely on your laptop with a dedicated `leann[cpu]` install. MCP-native, published at MLSys 2026.
 
 -----
 
