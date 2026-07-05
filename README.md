@@ -237,6 +237,7 @@
 - [**MLX**](https://github.com/ml-explore/mlx) — Apple's ML framework optimized for Apple Silicon (M-series CPUs). Excellent for local inference.
 - [**Candle**](https://github.com/huggingface/candle)— HuggingFace's minimalist ML framework for Rust with CPU-first design. Run LLMs, vision models, and more locally with zero GPU dependency.
 - [**llmfit**](https://github.com/AlexsJones/llmfit)— Rust CLI tool that detects your hardware and finds the best LLMs for your RAM, CPU, and GPU. One command to right-size models — scores quality, speed, fit, and context for hundreds of models. Supports Ollama, llama.cpp, MLX, LM Studio backends.
+- [**whichllm**](https://github.com/Andyyyy64/whichllm) — Find the best local LLM that actually runs on your hardware. Auto-detects GPU, CPU, and RAM, then ranks models from HuggingFace by real-time benchmarks and quality scores. CPU-only mode supported — `pip install whichllm` and you're ready.
 
 -----
 
