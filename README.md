@@ -201,6 +201,7 @@
 - [**n8n**](https://github.com/n8n-io/n8n) — Advanced workflow automation with native AI capabilities and MCP nodes.
 - [**Langflow**](https://github.com/langflow-ai/langflow) — Visual framework for building multi-agent and RAG applications.
 - [**Haystack**](https://github.com/deepset-ai/haystack) — End-to-end NLP framework for building search, QA, and RAG pipelines.
+- [**Open Multi-Agent**](https://github.com/open-multi-agent/open-multi-agent) — TypeScript-native multi-agent orchestration framework. Describe a goal and a coordinator automatically decomposes it into a task DAG that runs on any LLM, including local models via Ollama — no GPU required.
 
 -----
 
