@@ -38,6 +38,7 @@
 - [**LocalAI**](https://github.com/mudler/LocalAI)— OpenAI-compatible API for running local models. Drop-in replacement that also supports vision, voice, image gen — no GPU required.
 - [**Kobold.cpp**](https://github.com/LostRuins/koboldcpp) — Lightweight inference engine for GGUF models with built-in web UI.
 - [**Open WebUI**](https://github.com/open-webui/open-webui) — Self-hosted, offline ChatGPT-style interface for Ollama, with RAG, web search, and multi-user support.
+- [**PocketPal AI**](https://github.com/a-ghorbani/pocketpal-ai) — Private AI assistant that runs LLMs entirely on your phone. Uses llama.cpp with CPU as universal fallback — no account, no cloud, no internet required. Available on iOS and Android.
 
 -----
 
