@@ -109,6 +109,7 @@
 - [**MediaPipe**](https://github.com/google/mediapipe) — Google's library for hand, face, pose, and body tracking on CPU.
 - [**FaceX**](https://github.com/facex-engine/facex)— Full face stack running entirely in the browser via WebAssembly. Detection, 576-point 3D mesh, recognition, anti-spoof. Zero server needed.
 - [**ONNX Models**](https://github.com/onnx/models) — Collection of pre-trained, state-of-the-art ONNX models for vision, text, and audio.
+- [**franken_ocr**](https://github.com/Dicklesworthstone/franken_ocr) — Pure-Rust, CPU-only OCR engine for Baidu Unlimited-OCR. Five-model zoo (document OCR, VLM, chart extraction, sheet music OMR), custom int8 SIMD kernels, no Python, no GPU.
 
 -----
 
