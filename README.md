@@ -50,6 +50,7 @@
 - [**BitNet**](https://github.com/microsoft/BitNet)— Microsoft's official inference framework for 1-bit LLMs. Extremely efficient on CPU.
 - [**eLLM**](https://github.com/lucienhuangfu/eLLM)— Rust-based inference engine that claims to run LLMs faster on CPU than on GPU through aggressive optimization.
 - [**Krasis**](https://github.com/brontoguana/krasis)— Hybrid LLM runtime focusing on efficient execution of larger models on consumer hardware (CPU + limited VRAM).
+- [**MNN**](https://github.com/alibaba/MNN) — Alibaba's lightweight, high-performance inference engine for mobile and edge AI. Optimized assembly code for ARM/x64 CPUs with FP16/Int8 quantization, plus LLM and Stable Diffusion runtime support (MNN-LLM). No dependencies, ~800KB core, battle-tested in 30+ Alibaba apps.
 - [**IPEX-LLM**](https://github.com/intel/ipex-llm)— Accelerate local LLM inference on Intel CPUs, iGPUs, and NPUs. Seamless integration with llama.cpp, Ollama, HF Transformers.
 - [**ONNX Runtime**](https://github.com/microsoft/onnxruntime) — Cross-platform ML inference acceleration with CPU-optimized execution providers (OpenVINO, XNNPACK, CoreML).
 - [**OpenVINO**](https://github.com/openvinotoolkit/openvino) — Intel's optimization toolkit for high-performance CPU inference across vision, language, and audio models.
