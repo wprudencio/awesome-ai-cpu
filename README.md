@@ -179,6 +179,7 @@
 - [**Continue.dev**](https://github.com/continuedev/continue) — Open-source VS Code / JetBrains copilot. Use local models (Qwen 2.5 Coder, DeepSeek Coder) for autocomplete and chat.
 - [**Aider**](https://github.com/paul-gauthier/aider) — Terminal-based AI pair programming with git integration. Works with local LLMs.
 - [**Tabby**](https://github.com/TabbyML/tabby) — Self-hosted GitHub Copilot alternative. Code completion on CPU with StarCoder models.
+- [**Qwen Code**](https://github.com/QwenLM/qwen-code) — Open-source AI coding agent from the Qwen team (Alibaba) that lives in your terminal. Supports local models via Ollama/vLLM for fully offline, CPU-friendly coding. Features auto-memory, auto-skills, sub-agents, agent teams, and MCP integration.
 - [**OpenCode**](https://github.com/sst/opencode) — The most-starred open-source AI coding agent of 2026. Designed for fast local development workflows.
 - [**Crush**](https://github.com/charmbracelet/crush) — Terminal-based agentic coding assistant from Charm. Auto-discovers local models from Ollama, LM Studio, litellm, and any OpenAI-compatible backend — run it fully offline on CPU. LSP-enhanced, MCP-extensible, cross-platform (macOS, Linux, Windows, BSD).
 
