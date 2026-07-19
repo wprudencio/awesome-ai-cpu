@@ -64,6 +64,7 @@
 
 ## 🖼️ Image Generation and Editing
 
+- [**stable-diffusion.cpp**](https://github.com/leejet/stable-diffusion.cpp) — Pure C/C++ inference engine for Stable Diffusion, FLUX, Wan, Qwen Image, and more. Built on ggml (same as llama.cpp) — runs entirely on CPU with AVX/AVX2/AVX512 support. No external dependencies, super lightweight, supports SD1.x through SD3.5, FLUX, LoRA, ControlNet, video generation, and upscaling. A self-contained alternative to Python-based SD pipelines.
 - [**FastSD CPU**](https://github.com/rupeshs/fastsdcpu) ⭐2.1k — Fast Stable Diffusion on CPU and AI PC. Supports SDXL, SD 1.5, LCM, and FLUX — optimized for CPU inference.
 - [**Fooocus**](https://github.com/lllyasviel/Fooocus) — Simplified Stable Diffusion, easier to use than ComfyUI.
 - [**InvokeAI**](https://github.com/invoke-ai/InvokeAI) — Professional Stable Diffusion interface with excellent CPU support.
