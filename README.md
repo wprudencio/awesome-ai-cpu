@@ -94,6 +94,7 @@
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
 - [**Amphion**](https://github.com/open-mmlab/Amphion)— Open-MMLab's toolkit for Audio, Music, and Speech Generation. Reproducible research with CPU mode.
 - [**Vosk**](https://github.com/alphacep/vosk-api) — Offline speech recognition, very lightweight (50MB models).
+- [**transcribe.cpp**](https://github.com/handy-computer/transcribe.cpp) — Comprehensive C/C++ speech-to-text engine supporting 16 model families (Whisper, Parakeet, Canary, Moonshine, SenseVoice, Qwen3-ASR, Granite Speech, Voxtral, and more) via GGUF models on the ggml runtime. tinyBLAS-accelerated CPU path, no GPU required. 60+ model variants with streaming and batch modes, numerically verified against reference implementations.
 - [**Maivi**](https://github.com/MaximeRivest/maivi) — Cross-platform desktop app for real-time voice-to-text with hotkey support. Uses NVIDIA Parakeet TDT 0.6B for high accuracy (~6-9% WER) on CPU, processes audio at 0.36x real-time factor. Auto-copies transcription to clipboard.
 
 - [**Qwen3-TTS**](https://github.com/gabriele-mastrapasqua/qwen3-tts)— Pure C inference engine for Qwen3-TTS. No Python, no PyTorch — just C and BLAS. Supports 0.6B/1.7B models.
