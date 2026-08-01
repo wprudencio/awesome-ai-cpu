@@ -59,6 +59,7 @@
 - [**Trillim**](https://github.com/Trillim/Trillim)— Local AI stack for CPUs: CLI, Python SDK, and FastAPI server for BitNet and Bonsai (1-bit/ternary) bundles. Includes speech-to-text, text-to-speech, and image generation support.
 - [**exo**](https://github.com/exo-explore/exo) — Connect multiple devices (Macs, Linux machines, phones) into a single AI cluster. Automatically discovers devices, splits models across them, and runs frontier LLMs on CPU (Linux) or Apple Silicon MLX (macOS). OpenAI-compatible API.
 - [**deepseek.cpp**](https://github.com/andrewkchan/deepseek.cpp) — Lean, dedicated CPU-only inference engine for the DeepSeek family (V2, V2.5, V3, R1) in C++. Tiny codebase (~2k LOC), supports Q2_K/Q3_K/F8E5M2 quantizations, and rivals llama.cpp decode speed on CPU. Great for experimenting with DeepSeek models without a GPU.
+- [**cpubrrr**](https://github.com/arizqi/cpubrrr) — Frontier-class LLM inference on a laptop CPU. From-scratch NEON/SME SIMD kernels in Rust achieve ~110 tok/s on a 20B MoE model (gpt-oss:20b) on Apple M4 Max — 7.5× faster than llama.cpp, no GPU required.
 
 -----
 
