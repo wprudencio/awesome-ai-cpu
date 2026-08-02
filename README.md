@@ -60,6 +60,7 @@
 - [**exo**](https://github.com/exo-explore/exo) — Connect multiple devices (Macs, Linux machines, phones) into a single AI cluster. Automatically discovers devices, splits models across them, and runs frontier LLMs on CPU (Linux) or Apple Silicon MLX (macOS). OpenAI-compatible API.
 - [**deepseek.cpp**](https://github.com/andrewkchan/deepseek.cpp) — Lean, dedicated CPU-only inference engine for the DeepSeek family (V2, V2.5, V3, R1) in C++. Tiny codebase (~2k LOC), supports Q2_K/Q3_K/F8E5M2 quantizations, and rivals llama.cpp decode speed on CPU. Great for experimenting with DeepSeek models without a GPU.
 - [**cpubrrr**](https://github.com/arizqi/cpubrrr) — Frontier-class LLM inference on a laptop CPU. From-scratch NEON/SME SIMD kernels in Rust achieve ~110 tok/s on a 20B MoE model (gpt-oss:20b) on Apple M4 Max — 7.5× faster than llama.cpp, no GPU required.
+- [**BigMoeOnEdge**](https://github.com/Helldez/BigMoeOnEdge) — Run MoE models bigger than your RAM entirely on CPU. Lossless offloading lets you run a 284B MoE model on a 12 GB phone using stock llama.cpp — no GPU, no cloud.
 
 -----
 
