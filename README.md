@@ -162,6 +162,8 @@
 
 - [**Off Grid AI**](https://github.com/off-grid-ai/OGAM) — Complete offline AI suite for phones and Mac: chat, image generation, vision, voice transcription, tool calling, and document analysis — all running natively on your device's CPU. Supports any GGUF model (Qwen, Llama, Gemma, Phi) with 15-30 tok/s on flagship hardware. No account, no API keys, zero data leaves your device. Available on Android, iOS, and macOS.
 
+- [**Khoj**](https://github.com/khoj-ai/khoj) — Self-hostable AI second brain with 36k+ stars. Connects to your documents, web, and knowledge base to answer questions, build custom agents, run deep research, and schedule automations. Supports local LLMs via Ollama/llama.cpp for fully offline, CPU-friendly operation. Integrates with Obsidian, Emacs, WhatsApp, and more.
+
 - [**Cline**](https://github.com/cline/cline)— Autonomous coding agent as an SDK, IDE extension, or CLI assistant. Works with local LLMs via Ollama/LM Studio.
 - [**smolagents**](https://github.com/huggingface/smolagents)— HuggingFace's barebones library for agents that think in code. Supports local transformers and Ollama models, runs entirely on CPU.
 - [**Open Interpreter**](https://github.com/KillianLucas/open-interpreter) — Code-executing AI assistant (works with local LLMs).
