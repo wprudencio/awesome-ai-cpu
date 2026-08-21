@@ -62,6 +62,7 @@
 - [**cpubrrr**](https://github.com/arizqi/cpubrrr) — Frontier-class LLM inference on a laptop CPU. From-scratch NEON/SME SIMD kernels in Rust achieve ~110 tok/s on a 20B MoE model (gpt-oss:20b) on Apple M4 Max — 7.5× faster than llama.cpp, no GPU required.
 - [**BigMoeOnEdge**](https://github.com/Helldez/BigMoeOnEdge) — Run MoE models bigger than your RAM entirely on CPU. Lossless offloading lets you run a 284B MoE model on a 12 GB phone using stock llama.cpp — no GPU, no cloud.
 - [**kimi-k3-in-c**](https://github.com/FareedKhan-dev/kimi-k3-in-c) — Pure C99 inference engine for Kimi K3 (2.78T params) running on a single CPU in 8.24 GB RAM. Zero dependencies, no BLAS, no GPU — portable C99 with AVX2/SIMD optimization.
+- [**snapllm**](https://github.com/snapllm/snapllm) — Ollama alternative for edge AI: multi-model serving with sub-ms model switching, CPU-only 20B inference. Built on llama.cpp + stable-diffusion.cpp with prompt compression and speculative decoding.
 
 -----
 
