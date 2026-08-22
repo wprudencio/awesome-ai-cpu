@@ -63,6 +63,7 @@
 - [**BigMoeOnEdge**](https://github.com/Helldez/BigMoeOnEdge) — Run MoE models bigger than your RAM entirely on CPU. Lossless offloading lets you run a 284B MoE model on a 12 GB phone using stock llama.cpp — no GPU, no cloud.
 - [**kimi-k3-in-c**](https://github.com/FareedKhan-dev/kimi-k3-in-c) — Pure C99 inference engine for Kimi K3 (2.78T params) running on a single CPU in 8.24 GB RAM. Zero dependencies, no BLAS, no GPU — portable C99 with AVX2/SIMD optimization.
 - [**snapllm**](https://github.com/snapllm/snapllm) — Ollama alternative for edge AI: multi-model serving with sub-ms model switching, CPU-only 20B inference. Built on llama.cpp + stable-diffusion.cpp with prompt compression and speculative decoding.
+- [**reame**](https://github.com/swellweb/reame) — CPU-first LLM inference server built for ternary models. Runs an 8B-param model in 2.2 GB RAM on a free Oracle ARM box, outperforming llama.cpp's own ternary fork. OpenAI-compatible API, two engines (nucleo for ternary + llama.cpp for everything else), MIT licensed.
 
 -----
 
