@@ -97,6 +97,7 @@
 - [**OmniVoice-Studio**](https://github.com/debpalash/OmniVoice-Studio) — The open-source ElevenLabs alternative: voice cloning, TTS, ASR, dubbing, and dictation in a single desktop app. Supports 646 languages, auto-detects CUDA/MPS/ROCm/CPU and auto-offloads to CPU when no GPU is available. Fully local, no API keys.
 - [**omnivoice.cpp**](https://github.com/ServeurpersoCom/omnivoice.cpp) — GGML-powered local TTS with voice cloning and voice design across 646 languages. C++17 port of OmniVoice with Q8_0 quantization, 24 kHz output, and a dedicated CPU build script. Embeddable C API for integration.
 
+- [**VibeVoice**](https://github.com/microsoft/VibeVoice) — Microsoft's open-source frontier voice AI. Unified ASR (speech-to-text) and TTS. The BitNet CPU engine (VibeASR.cpp) compresses the 7B ASR model to 1.58 GB and runs real-time inference on 3+ CPU threads — no GPU required.
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
 - [**Amphion**](https://github.com/open-mmlab/Amphion)— Open-MMLab's toolkit for Audio, Music, and Speech Generation. Reproducible research with CPU mode.
 - [**Vosk**](https://github.com/alphacep/vosk-api) — Offline speech recognition, very lightweight (50MB models).
