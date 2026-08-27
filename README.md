@@ -66,6 +66,7 @@
 - [**snapllm**](https://github.com/snapllm/snapllm) — Ollama alternative for edge AI: multi-model serving with sub-ms model switching, CPU-only 20B inference. Built on llama.cpp + stable-diffusion.cpp with prompt compression and speculative decoding.
 - [**reame**](https://github.com/swellweb/reame) — CPU-first LLM inference server built for ternary models. Runs an 8B-param model in 2.2 GB RAM on a free Oracle ARM box, outperforming llama.cpp's own ternary fork. OpenAI-compatible API, two engines (nucleo for ternary + llama.cpp for everything else), MIT licensed.
 - [**bebelm**](https://github.com/maximecb/bebelm) — CPU-only, pure-Rust implementation of LiquidAI's LFM2.5-8B-A1B LLM. Zero GPU dependency, designed for fast local inference on consumer hardware.
+- [**Sonar**](https://github.com/dphnAI/sonar) — Large-scale LLM inference engine based on vLLM with CPU, ROCm, Metal, and CUDA support. Continuous batching, paged KV-cache, speculative decoding, multi-node parallelism, and multimodal model serving. OpenAI-compatible API.
 
 -----
 
