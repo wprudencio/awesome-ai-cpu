@@ -67,6 +67,7 @@
 - [**reame**](https://github.com/swellweb/reame) — CPU-first LLM inference server built for ternary models. Runs an 8B-param model in 2.2 GB RAM on a free Oracle ARM box, outperforming llama.cpp's own ternary fork. OpenAI-compatible API, two engines (nucleo for ternary + llama.cpp for everything else), MIT licensed.
 - [**bebelm**](https://github.com/maximecb/bebelm) — CPU-only, pure-Rust implementation of LiquidAI's LFM2.5-8B-A1B LLM. Zero GPU dependency, designed for fast local inference on consumer hardware.
 - [**Sonar**](https://github.com/dphnAI/sonar) — Large-scale LLM inference engine based on vLLM with CPU, ROCm, Metal, and CUDA support. Continuous batching, paged KV-cache, speculative decoding, multi-node parallelism, and multimodal model serving. OpenAI-compatible API.
+- [**ik_llama.cpp**](https://github.com/ikawrakow/ik_llama.cpp) — MIT-licensed llama.cpp fork focused on CPU speed and state-of-the-art quantization. Roughly 2x mainline token generation on CPU, with Flash Attention on CPU and the fastest CPU-only path for DeepSeek-family models.
 
 -----
 
