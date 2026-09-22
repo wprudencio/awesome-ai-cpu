@@ -100,6 +100,7 @@
 - [**Chatterbox TTS Server**](https://github.com/devnen/Chatterbox-TTS-Server) — Self-host Resemble AI's Chatterbox TTS (Original, Multilingual, Turbo) behind an OpenAI-compatible API with Web UI. Voice cloning, audiobook generation, 23 languages. Runs on CPU with automatic GPU fallback.
 - [**OmniVoice-Studio**](https://github.com/debpalash/OmniVoice-Studio) — The open-source ElevenLabs alternative: voice cloning, TTS, ASR, dubbing, and dictation in a single desktop app. Supports 646 languages, auto-detects CUDA/MPS/ROCm/CPU and auto-offloads to CPU when no GPU is available. Fully local, no API keys.
 - [**omnivoice.cpp**](https://github.com/ServeurpersoCom/omnivoice.cpp) — GGML-powered local TTS with voice cloning and voice design across 646 languages. C++17 port of OmniVoice with Q8_0 quantization, 24 kHz output, and a dedicated CPU build script. Embeddable C API for integration.
+- [**F5TTS-CPU_ONLY-WebUI**](https://github.com/Raxephion/F5TTS-CPU_ONLY-WebUI) — CPU-only fork of F5-TTS with auto-installer and launcher for stable local speech synthesis on CPU-only machines.
 
 - [**VibeVoice**](https://github.com/microsoft/VibeVoice) — Microsoft's open-source frontier voice AI. Unified ASR (speech-to-text) and TTS. The BitNet CPU engine (VibeASR.cpp) compresses the 7B ASR model to 1.58 GB and runs real-time inference on 3+ CPU threads — no GPU required.
 - [**CosyVoice**](https://github.com/FunAudioLLM/CosyVoice) — Multi-lingual large voice generation model from FunAudioLLM. Supports voice cloning.
