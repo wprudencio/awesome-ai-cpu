@@ -69,6 +69,7 @@
 - [**Sonar**](https://github.com/dphnAI/sonar) — Large-scale LLM inference engine based on vLLM with CPU, ROCm, Metal, and CUDA support. Continuous batching, paged KV-cache, speculative decoding, multi-node parallelism, and multimodal model serving. OpenAI-compatible API.
 - [**ik_llama.cpp**](https://github.com/ikawrakow/ik_llama.cpp) — MIT-licensed llama.cpp fork focused on CPU speed and state-of-the-art quantization. Roughly 2x mainline token generation on CPU, with Flash Attention on CPU and the fastest CPU-only path for DeepSeek-family models.
 - [**OlliteRT**](https://github.com/NightMean/OlliteRT) — Ollama for Android: turn your phone into an OpenAI-compatible LLM server. Runs models fully locally on mobile CPU/GPU via Google's LiteRT-LM runtime — private, offline, no cloud needed.
+- [**Project Zero**](https://github.com/shifulegend/project-zero) — Pure C, single-binary CPU inference engine for BitNet ternary and dense GGUF models. OpenAI-compatible server, RAG memory, and agentic tool-use loop with no GPU or Python required.
 
 -----
 
