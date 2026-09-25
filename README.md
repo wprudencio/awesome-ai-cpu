@@ -70,6 +70,7 @@
 - [**ik_llama.cpp**](https://github.com/ikawrakow/ik_llama.cpp) — MIT-licensed llama.cpp fork focused on CPU speed and state-of-the-art quantization. Roughly 2x mainline token generation on CPU, with Flash Attention on CPU and the fastest CPU-only path for DeepSeek-family models.
 - [**OlliteRT**](https://github.com/NightMean/OlliteRT) — Ollama for Android: turn your phone into an OpenAI-compatible LLM server. Runs models fully locally on mobile CPU/GPU via Google's LiteRT-LM runtime — private, offline, no cloud needed.
 - [**Project Zero**](https://github.com/shifulegend/project-zero) — Pure C, single-binary CPU inference engine for BitNet ternary and dense GGUF models. OpenAI-compatible server, RAG memory, and agentic tool-use loop with no GPU or Python required.
+- [**KTransformers**](https://github.com/kvcache-ai/ktransformers) — Heterogeneous MoE inference engine from Tsinghua that treats CPU as a first-class citizen. Runs 671B-param models like DeepSeek V3 with a single 24GB GPU plus CPU/RAM via AMX-optimized kernels and NUMA-aware expert offloading.
 
 -----
 
