@@ -71,6 +71,7 @@
 - [**OlliteRT**](https://github.com/NightMean/OlliteRT) — Ollama for Android: turn your phone into an OpenAI-compatible LLM server. Runs models fully locally on mobile CPU/GPU via Google's LiteRT-LM runtime — private, offline, no cloud needed.
 - [**Project Zero**](https://github.com/shifulegend/project-zero) — Pure C, single-binary CPU inference engine for BitNet ternary and dense GGUF models. OpenAI-compatible server, RAG memory, and agentic tool-use loop with no GPU or Python required.
 - [**KTransformers**](https://github.com/kvcache-ai/ktransformers) — Heterogeneous MoE inference engine from Tsinghua that treats CPU as a first-class citizen. Runs 671B-param models like DeepSeek V3 with a single 24GB GPU plus CPU/RAM via AMX-optimized kernels and NUMA-aware expert offloading.
+- [**Llaminar**](https://github.com/Llaminar/llaminar) — LLM inference engine in C++ with custom quantized kernels for CPU (AVX512-VNNI and AVX2 runtime images), plus CUDA and ROCm backends — including running all of them simultaneously. Tensor/pipeline parallelism and mixed-vendor deployments. (2026, alpha.)
 
 -----
 
