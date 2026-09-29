@@ -193,6 +193,7 @@
 - [**Local Deep Research**](https://github.com/LearningCircuit/local-deep-research) — AI-powered research assistant that performs deep, agentic research using local LLMs (Ollama, llama.cpp). Searches across web, academic papers, and your own documents, then synthesizes findings into cited reports. Runs fully on CPU with Docker Compose or pip install.
 - [**Tiny-MoA**](https://github.com/gyunggyung/Tiny-MoA) — Mixture of Agents on CPU: a 1.2B thinking model plans, a 600M reasoner solves, and a 90M tool caller acts — all running locally on 16GB RAM with no GPU. Includes tool calling, RAG, web search, and a rich TUI.
 - [**Page Assist**](https://github.com/n4ze3m/page-assist) — Open-source browser extension that adds a sidebar and web UI for your local AI models. Chat with any webpage, summarize content, and use AI inline while browsing. Works with Ollama, LM Studio, and any OpenAI-compatible endpoint — fully local, no GPU needed.
+- [**nanobot**](https://github.com/HKUDS/nanobot) — Ultra-lightweight, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP support, multi-agent workflows, and scheduled automations. Runs fully local on CPU via Ollama, LM Studio, OpenVINO Model Server, or any OpenAI-compatible endpoint — MIT licensed.
 - [**CrewAI**](https://github.com/crewAIInc/crewAI)— Multi-agent orchestration for role-playing AI teams.
 
 -----
