@@ -76,6 +76,7 @@
 - [**Magnitude**](https://github.com/magnitudedev/magnitude) — Open-source inference engine that compiles and tunes kernels on your device for up to 2x faster inference than llama.cpp. Works on Apple Silicon, NVIDIA, AMD, or CPU only — Apache 2.0, connects to Pi, OpenCode, Hermes, Codex and more via an OpenAI-compatible API.
 - [**gpt-oss.java**](https://github.com/amzn/gpt-oss.java) — Pure Java implementation of OpenAI's gpt-oss inference in ~1000 lines, with no PyTorch, C++, or native dependencies. CPU-optimized MoE inference (GQA, RoPE, SwiGLU, MXFP4 SIMD kernels) that runs on commodity hardware with only the Java runtime and model weights.
 - [**unillm**](https://github.com/cognisoc/unillm) — Modular LLM inference runtime in Rust with 47 model architectures behind a single `Model` trait. Loads SafeTensors, GGUF, or PyTorch weights and runs device-agnostically on CPU, CUDA, or Metal — hybrid KV cache (RadixAttention + PagedAttention) and continuous batching included. `cargo add unillm-runtime`, MIT licensed.
+- [**RAI**](https://github.com/Classevelabs/rai) — CPU-only LLM inference engine in pure Rust. Hand-written AVX2/FMA kernels with 4-bit weights dequantized in registers, speculative decoding, and a local HTTP + MCP server. No GPU, no CUDA, no Python runtime, no PyTorch — Apache-2.0.
 
 -----
 
