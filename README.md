@@ -78,6 +78,7 @@
 - [**unillm**](https://github.com/cognisoc/unillm) — Modular LLM inference runtime in Rust with 47 model architectures behind a single `Model` trait. Loads SafeTensors, GGUF, or PyTorch weights and runs device-agnostically on CPU, CUDA, or Metal — hybrid KV cache (RadixAttention + PagedAttention) and continuous batching included. `cargo add unillm-runtime`, MIT licensed.
 - [**RAI**](https://github.com/Classevelabs/rai) — CPU-only LLM inference engine in pure Rust. Hand-written AVX2/FMA kernels with 4-bit weights dequantized in registers, speculative decoding, and a local HTTP + MCP server. No GPU, no CUDA, no Python runtime, no PyTorch — Apache-2.0.
 - [**Sparsify**](https://github.com/daylinkltd/sparsify) — Run MoE models bigger than your RAM: expert weights page from SSD on demand with byte-identical output. Mixtral 26GB in 3.3GB RSS on a MacBook Air — no GPU required.
+- [**Colibrì**](https://github.com/JustVugg/colibri) — Pure C, zero-dependency engine that runs frontier MoE models (744B up to 2.8T params) on consumer hardware by treating disk, RAM, and VRAM as one inference hierarchy — experts stream from disk on demand. CPU-only works; CUDA/Metal/Vulkan optional. No GPU required.
 
 -----
 
