@@ -81,6 +81,7 @@
 - [**Colibrì**](https://github.com/JustVugg/colibri) — Pure C, zero-dependency engine that runs frontier MoE models (744B up to 2.8T params) on consumer hardware by treating disk, RAM, and VRAM as one inference hierarchy — experts stream from disk on demand. CPU-only works; CUDA/Metal/Vulkan optional. No GPU required.
 - [**Ferrite**](https://github.com/vicotrbb/ferrite) — CPU-native LLM inference engine written in Rust. Loads GGUF models, runs quantized inference with architecture-specific SIMD kernels, and ships both a CLI and an OpenAI-compatible HTTP server. Zero GPU dependency, Apache-2.0. (2026, alpha.)
 - [**OxiLLaMa**](https://github.com/cool-japan/oxillama) — Pure Rust reimplementation of llama.cpp with zero C/C++/Fortran or FFI. Full GGUF loading (Q4_0 through Q8_0, K/I-quants), 25 model architectures, and an OpenAI-compatible API server. Compiles to native binaries, WebAssembly, and embedded targets. Apache-2.0.
+- [**Frink**](https://github.com/antonellof/frink) — Pure-Rust GGUF inference engine (2026) with no llama.cpp/ggml bindings — loader, quantized kernels, attention, and expert routing all written in Rust. Dense and MoE models on CPU, Apple Metal, or CUDA; CLI plus OpenAI/Anthropic-compatible server with continuous batching and paged KV. Single static binary, beats llama.cpp's CPU path on small models (~44.6 vs 38.2 tok/s TinyLlama Q8_0). Apache-2.0.
 
 -----
 
