@@ -156,6 +156,7 @@
 - [**Qwen 3.6**](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) — Alibaba's latest with 27B dense and 35B-A3B MoE variants. MoE activates only 3B params per token — great speed/quality ratio.
 - [**DeepSeek-R1-Distill-Qwen (1.5B–7B)**](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B) — Distilled reasoning models from DeepSeek. Tiny 1.5B variant runs great on CPU.
 - [**SmolLM3 (3B)**](https://huggingface.co/HuggingFaceTB/SmolLM3-3B) — HuggingFace's latest tiny model, multilingual (8 languages), optimized for on-device and CPU inference.
+- [**Phocinae-Largha-150M-v1**](https://github.com/Phocinae/Phocinae-Largha-150M-v1) — Apache-2.0 bilingual (English/Chinese) typed decision model (144.3M params, mmBERT-small) that returns calibrated Choice, Score and Noul probabilities in one forward pass — no text generation, no GPU required. CPU p50 about 1.64 s per case (single-thread); 8–20 decisions/s batched on 8 threads. Authors report typed-decisions 0.906 (en, specialist: fitted on this dataset's train split) / 0.848 (zh, machine-translated cases).
 
 ### 🖼️ Image Models
 
