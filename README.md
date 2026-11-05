@@ -83,6 +83,7 @@
 - [**OxiLLaMa**](https://github.com/cool-japan/oxillama) — Pure Rust reimplementation of llama.cpp with zero C/C++/Fortran or FFI. Full GGUF loading (Q4_0 through Q8_0, K/I-quants), 25 model architectures, and an OpenAI-compatible API server. Compiles to native binaries, WebAssembly, and embedded targets. Apache-2.0.
 - [**Frink**](https://github.com/antonellof/frink) — Pure-Rust GGUF inference engine (2026) with no llama.cpp/ggml bindings — loader, quantized kernels, attention, and expert routing all written in Rust. Dense and MoE models on CPU, Apple Metal, or CUDA; CLI plus OpenAI/Anthropic-compatible server with continuous batching and paged KV. Single static binary, beats llama.cpp's CPU path on small models (~44.6 vs 38.2 tok/s TinyLlama Q8_0). Apache-2.0.
 - [**MemVanta**](https://github.com/sauravsingla/MemVanta) — Low-memory C++20 LLM inference runtime for quantized GGUF models on CPU: mmap-backed weights, paged KV cache, Q4/Q8 kernels and reproducible llama.cpp benchmarks.
+- [**Janas**](https://github.com/prabanta-dev/janas) — Dependency-free C engine for MoE LLMs that streams expert weights from an NVMe SSD and caches the hottest ones in RAM, so Qwen3-Next-80B (48 GB) runs on a 32 GB laptop CPU at ~26 tok/s with 20 threads. Multithreaded CPU write path with optional Vulkan GPU and Intel NPU offload for prompt reading (GPL-3.0).
 
 -----
 
