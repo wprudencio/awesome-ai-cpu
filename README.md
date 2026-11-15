@@ -85,6 +85,7 @@
 - [**MemVanta**](https://github.com/sauravsingla/MemVanta) — Low-memory C++20 LLM inference runtime for quantized GGUF models on CPU: mmap-backed weights, paged KV cache, Q4/Q8 kernels and reproducible llama.cpp benchmarks.
 - [**Janas**](https://github.com/prabanta-dev/janas) — Dependency-free C engine for MoE LLMs that streams expert weights from an NVMe SSD and caches the hottest ones in RAM, so Qwen3-Next-80B (48 GB) runs on a 32 GB laptop CPU at ~26 tok/s with 20 threads. Multithreaded CPU write path with optional Vulkan GPU and Intel NPU offload for prompt reading (GPL-3.0).
 - [**HyMT2Sharp**](https://github.com/sdcb/HyMT2Sharp) — Pure C# inference engine for Tencent's Hy-MT2 1.8B translation model with hand-written AVX2 / AVX-512 / NEON SIMD kernels and an OpenAI-compatible server; GGUF quantization down to 1.25-bit in ~440 MB. Apache-2.0.
+- [**OxiBonsai**](https://github.com/cool-japan/oxibonsai) — Zero-FFI pure-Rust inference engine for PrismML's 1-bit and ternary Bonsai models (Qwen3 architecture up to 8B) with runtime-dispatched AVX2/AVX-512/NEON kernels; the 8B 1-bit model is a 1.15 GB GGUF. Apache-2.0.
 
 -----
 
