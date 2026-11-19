@@ -137,6 +137,7 @@
 - [**MusicGPT**](https://github.com/gabotechs/MusicGPT) — Generate music based on natural language prompts. Runs locally on CPU.
 - [**acestep.cpp**](https://github.com/ServeurpersoCom/acestep.cpp)— Local AI music generation server with browser UI, powered by GGML. Describe a song + optional lyrics and get stereo 48kHz audio. Runs on CPU via BLAS-accelerated GGML backend with a dedicated CPU build script.
 - [**FunMusic**](https://github.com/FunAudioLLM/FunMusic) — Fundamental toolkit for music generation, part of the FunAudioLLM ecosystem.
+- [**Kitten-TTS 2 C++**](https://github.com/KittenML/kitten-tts-2-cpp) — Native C++ inference for KittenTTS 2 on GGML, with a CPU LibTorch waveform decoder and ternary weights losslessly packed into a 1.03 GB GGUF (repacked into AMX kernels on Intel CPUs); built-in voices, emotion and emphasis tags, 24 kHz WAV output, no Python at runtime. MIT.
 
 -----
 
