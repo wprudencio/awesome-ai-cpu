@@ -138,6 +138,7 @@
 - [**Qwen3-TTS**](https://github.com/gabriele-mastrapasqua/qwen3-tts) — Pure C inference engine for Qwen3-TTS. No Python, no PyTorch — just C and BLAS. Supports 0.6B/1.7B models.
 - [**VibeVoice**](https://github.com/microsoft/VibeVoice) — Microsoft's open-source frontier voice AI. Unified ASR (speech-to-text) and TTS. The BitNet CPU engine (VibeASR.cpp) compresses the 7B ASR model to 1.58 GB and runs real-time inference on 3+ CPU threads — no GPU required.
 - [**RVC (Voice Conversion)**](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) — Real-time voice conversion, CPU compatible.
+- [**Pipecat**](https://github.com/pipecat-ai/pipecat) — Open-source framework for building voice agents: transports, turn-taking, and multimodal pipelines. Pair it with whisper.cpp, Piper, and a local LLM for an all-CPU voice bot.
 
 ### 🎵 Music & Audio
 
