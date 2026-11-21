@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t">
+  <title id="t">Awesome AI CPU</title>
+  <g fill="none" stroke="#1f2328" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <!-- cerebrum: one continuous profile line -->
+    <path d="M172 272 C152 252 152 214 176 194 C196 172 232 158 272 158 C312 158 344 176 354 204 C362 226 358 250 344 264 C330 278 300 284 264 284 C228 284 196 282 172 272 Z"/>
+    <!-- cerebellum -->
+    <path d="M320 272 C344 268 360 282 352 298 C346 310 326 312 314 302 C306 294 308 280 320 272 Z"/>
+    <!-- one fold -->
+    <path d="M212 206 C232 190 258 186 282 194"/>
+    <!-- pins -->
+    <path d="M208 326 V364 M256 326 V364 M304 326 V364"/>
+  </g>
+</svg>
