@@ -1,18 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t">
   <title id="t">Awesome AI CPU</title>
-  <g fill="none" stroke="#e6edf3" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+  <g fill="none" stroke="#e6edf3" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <!-- cerebrum: one continuous profile line -->
+    <path d="M172 272 C152 252 152 214 176 194 C196 172 232 158 272 158 C312 158 344 176 354 204 C362 226 358 250 344 264 C330 278 300 284 264 284 C228 284 196 282 172 272 Z"/>
+    <!-- cerebellum -->
+    <path d="M320 272 C344 268 360 282 352 298 C346 310 326 312 314 302 C306 294 308 280 320 272 Z"/>
+    <!-- one fold -->
+    <path d="M212 206 C232 190 258 186 282 194"/>
     <!-- pins -->
-    <path d="M192 112V140M256 112V140M320 112V140"/>
-    <path d="M192 372V400M256 372V400M320 372V400"/>
-    <path d="M112 192H140M112 256H140M112 320H140"/>
-    <path d="M372 192H400M372 256H400M372 320H400"/>
-    <!-- chip body -->
-    <rect x="140" y="140" width="232" height="232" rx="44"/>
-    <!-- brain hemispheres -->
-    <path transform="translate(252,250)" d="M0,-58 C-14,-70 -34,-72 -46,-62 C-60,-70 -78,-64 -80,-48 C-92,-40 -92,-24 -82,-16 C-88,-4 -80,8 -66,10 C-62,24 -50,32 -38,28 C-34,44 -18,50 -8,42 C-4,50 -2,54 0,56 Z"/>
-    <path transform="translate(260,250) scale(-1,1)" d="M0,-58 C-14,-70 -34,-72 -46,-62 C-60,-70 -78,-64 -80,-48 C-92,-40 -92,-24 -82,-16 C-88,-4 -80,8 -66,10 C-62,24 -50,32 -38,28 C-34,44 -18,50 -8,42 C-4,50 -2,54 0,56 Z"/>
-    <!-- gyri -->
-    <path transform="translate(252,250)" d="M-12,-42 C-30,-50 -44,-42 -46,-26 M-64,-2 C-50,-10 -34,-10 -24,0"/>
-    <path transform="translate(260,250) scale(-1,1)" d="M-12,-42 C-30,-50 -44,-42 -46,-26 M-64,-2 C-50,-10 -34,-10 -24,0"/>
+    <path d="M208 326 V364 M256 326 V364 M304 326 V364"/>
   </g>
 </svg>
