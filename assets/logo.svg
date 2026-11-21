@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t">
+  <title id="t">Awesome AI CPU</title>
+  <defs>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="brain" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5b4fc"/>
+      <stop offset=".45" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- pins -->
+  <g fill="#475569">
+    <rect x="166" y="90"  width="14" height="26" rx="4"/>
+    <rect x="232" y="90"  width="14" height="26" rx="4"/>
+    <rect x="266" y="90"  width="14" height="26" rx="4"/>
+    <rect x="299" y="90"  width="14" height="26" rx="4"/>
+    <rect x="332" y="90"  width="14" height="26" rx="4"/>
+    <rect x="166" y="396" width="14" height="26" rx="4"/>
+    <rect x="199" y="396" width="14" height="26" rx="4"/>
+    <rect x="232" y="396" width="14" height="26" rx="4"/>
+    <rect x="266" y="396" width="14" height="26" rx="4"/>
+    <rect x="332" y="396" width="14" height="26" rx="4"/>
+    <rect x="90"  y="166" width="26" height="14" rx="4"/>
+    <rect x="90"  y="199" width="26" height="14" rx="4"/>
+    <rect x="90"  y="232" width="26" height="14" rx="4"/>
+    <rect x="90"  y="266" width="26" height="14" rx="4"/>
+    <rect x="90"  y="332" width="26" height="14" rx="4"/>
+    <rect x="396" y="166" width="26" height="14" rx="4"/>
+    <rect x="396" y="199" width="26" height="14" rx="4"/>
+    <rect x="396" y="232" width="26" height="14" rx="4"/>
+    <rect x="396" y="266" width="26" height="14" rx="4"/>
+    <rect x="396" y="332" width="26" height="14" rx="4"/>
+  </g>
+  <!-- active pins -->
+  <g fill="url(#accent)">
+    <rect x="199" y="90"  width="14" height="26" rx="4"/>
+    <rect x="299" y="396" width="14" height="26" rx="4"/>
+    <rect x="90"  y="299" width="26" height="14" rx="4"/>
+    <rect x="396" y="199" width="26" height="14" rx="4"/>
+  </g>
+
+  <!-- chip body -->
+  <rect x="116" y="116" width="280" height="280" rx="48" fill="url(#chip)" stroke="url(#accent)" stroke-width="10"/>
+  <!-- die -->
+  <rect x="156" y="156" width="200" height="200" rx="24" fill="#0b1220" stroke="#22d3ee" stroke-opacity=".22" stroke-width="2"/>
+
+  <circle cx="256" cy="250" r="110" fill="url(#glow)"/>
+
+  <!-- brain hemispheres -->
+  <g fill="url(#brain)">
+    <path transform="translate(253,250) scale(.9)" d="M0,-58 C-14,-70 -34,-72 -46,-62 C-60,-70 -78,-64 -80,-48 C-92,-40 -92,-24 -82,-16 C-88,-4 -80,8 -66,10 C-62,24 -50,32 -38,28 C-34,44 -18,50 -8,42 C-4,50 -2,54 0,56 Z"/>
+    <path transform="translate(259,250) scale(-.9,.9)" d="M0,-58 C-14,-70 -34,-72 -46,-62 C-60,-70 -78,-64 -80,-48 C-92,-40 -92,-24 -82,-16 C-88,-4 -80,8 -66,10 C-62,24 -50,32 -38,28 C-34,44 -18,50 -8,42 C-4,50 -2,54 0,56 Z"/>
+  </g>
+  <!-- gyri -->
+  <g fill="none" stroke="#1e1b4b" stroke-opacity=".55" stroke-width="6" stroke-linecap="round">
+    <g transform="translate(253,250) scale(.9)">
+      <path d="M-10,-44 C-28,-52 -42,-44 -44,-28"/>
+      <path d="M-70,-6 C-56,-14 -40,-14 -30,-4"/>
+      <path d="M-16,14 C-30,6 -42,10 -46,20"/>
+    </g>
+    <g transform="translate(259,250) scale(-.9,.9)">
+      <path d="M-10,-44 C-28,-52 -42,-44 -44,-28"/>
+      <path d="M-70,-6 C-56,-14 -40,-14 -30,-4"/>
+      <path d="M-16,14 C-30,6 -42,10 -46,20"/>
+    </g>
+  </g>
+
+  <!-- circuit traces: brain to die -->
+  <g stroke="#38bdf8" stroke-width="5" stroke-linecap="round">
+    <path d="M226,196 V172"/>
+    <path d="M286,196 V172"/>
+    <path d="M184,250 H171"/>
+    <path d="M328,250 H341"/>
+    <path d="M226,300 V326"/>
+    <path d="M256,304 V332"/>
+    <path d="M286,300 V326"/>
+  </g>
+  <g fill="#7dd3fc">
+    <circle cx="226" cy="164" r="6"/>
+    <circle cx="286" cy="164" r="6"/>
+    <circle cx="164" cy="250" r="6"/>
+    <circle cx="348" cy="250" r="6"/>
+    <circle cx="226" cy="334" r="6"/>
+    <circle cx="256" cy="340" r="6"/>
+    <circle cx="286" cy="334" r="6"/>
+  </g>
+</svg>
