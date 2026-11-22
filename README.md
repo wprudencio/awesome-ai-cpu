@@ -164,6 +164,7 @@
 - [**FaceX**](https://github.com/facex-engine/facex) — Full face stack running entirely in the browser via WebAssembly. Detection, 576-point 3D mesh, recognition, anti-spoof. Zero server needed.
 - [**franken_ocr**](https://github.com/Dicklesworthstone/franken_ocr) — Pure-Rust, CPU-only OCR engine for Baidu Unlimited-OCR. Five-model zoo (document OCR, VLM, chart extraction, sheet music OMR), custom int8 SIMD kernels, no Python, no GPU.
 - [**ONNX Models**](https://github.com/onnx/models) — Collection of pre-trained, state-of-the-art ONNX models for vision, text, and audio.
+- [**Indra OCR**](https://github.com/datalab-to/indra) — 1M-parameter document OCR model from the makers of Marker, running on ONNX Runtime with no PyTorch or GPU; reads 80+ languages, handwriting and rotated scans at about 44 pages/s on 32 CPU cores. Apache-2.0 code, weights under a modified OpenRAIL-M.
 
 -----
 
