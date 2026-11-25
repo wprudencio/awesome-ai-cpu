@@ -89,6 +89,7 @@
 - [**HyMT2Sharp**](https://github.com/sdcb/HyMT2Sharp) — Pure C# inference engine for Tencent's Hy-MT2 1.8B translation model with hand-written AVX2 / AVX-512 / NEON SIMD kernels and an OpenAI-compatible server; GGUF quantization down to 1.25-bit in ~440 MB. Apache-2.0.
 - [**vla.simd**](https://github.com/cair-vinuni/vla.simd) — C++ inference engine for Vision-Language-Action robot policies (ACT, IMPACT, SmolVLA, Octo, TurboVLA, Diffusion Policy) with its own tensors, operators, and AVX2/NEON kernels — no GPU, CUDA, or ggml dependency. INT8 W8A8 runs ACT in ~50-60 ms per action chunk on desktop x86 CPUs (~490 ms on a Raspberry Pi 5). Apache-2.0.
 - [**Qwen3.5-asm**](https://github.com/suayptalha/qwen3_5-assembly) — Qwen3.5-0.8B inference engine in hand-written x86-64 assembly — tokenizer, chat template, forward pass, sampling and decoding all in assembly, statically linked with direct syscalls and no libc, Python, GPU, or ML framework at runtime, with AVX2/FMA kernels and roughly 1.5x single-thread decode over CPU PyTorch. Apache-2.0.
+- [**openset-llm**](https://github.com/opensetlabs/openset-llm) — CPU-only C++ inference engine that runs a ternary Qwen3.8-27B model in 8 GB of RAM, with AVX-512 kernels, speculative decoding and an OpenAI-compatible server; 17-20 tok/s on an 8 vCPU Ice Lake box. MIT.
 
 -----
 
